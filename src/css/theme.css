@@ -1,0 +1,112 @@
+HTML {
+	color: #222;
+}
+BODY {
+	background: url(/img/web-bg.gif) #c8cdd0;
+}
+.ismobile BODY {
+	background-color: #6d7073;
+}
+A {
+	color: #222;
+}
+A:hover {
+    color: #0066EE;
+}
+A:visited {
+	color: #222;
+}
+ARTICLE A:hover {
+	border-bottom-color: #0066EE;
+}
+::-moz-selection { background: #DA8B21; color: #fff; text-shadow: none; }
+::selection { background: #DA8B21; color: #fff; text-shadow: none; }
+#menu A:hover, #menu A.selected {
+	color: #0066EE;
+}
+.ismobile #container {
+	background: url(/img/web-bg.png) #bbc0c3 repeat-x;
+}
+#footer {
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+}
+.ismobile #footer {
+	background-color: #6d7073;
+}
+#footer DEL {
+	color: #aaa;
+}
+#tags A {
+	color: #fff;
+	background-color: #e39b20;
+}
+#tags A:hover {
+	color: #af7616;
+	background-color: #fff;
+}
+.about-cube H3 {
+	color: #235D94;
+}
+.js .about-cube H3:hover {
+	color: #d7830a;
+}
+.no-js #about-short {
+	background-color: #9AA2A7;
+}
+.js .scrollable > DIV > DIV {
+	background-color: rgba(0,0,0,0.2) !important;
+}
+#portfolio-details {
+	background-color: #fff;
+	border-radius: 12px;
+}
+	#portfolio-details-arrow {
+		border-top-color: #fff;
+	}
+		#portfolio-details H3 A:hover {
+			color: #0066EE;
+		}
+		.portfolio-desc A:hover {
+			color: #0066EE;
+			border-bottom-color: #0066EE;
+		}
+		.portfolio-desc A.external {
+			color: #0066EE;
+		}
+		.portfolio-desc A.external:hover {
+			color: #D7830A;
+		}
+	#portfolio-work-descr {
+		background-color: #fff;
+		border-radius: 12px;
+	}
+#contact-aside {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+	P#contact-error {
+		background-color: #e39b20;
+	}
+		.action-button {
+			color: #fff;
+			background-color: #195d9c;
+		}
+	#contact-message {
+		background-color: rgba(60,115,169, 0.9);
+	}
+	.no-rgba #contact-message {
+		background-color: #5d96cb;
+	}
+	#contact-message.error {
+		background-color: rgba(125,75,182, 0.9);
+	}
+	.no-rgba #contact-message.error {
+		background-color: #7d4bb6;
+	}
+		#contact-message .action-button {
+			background-color: #175A91;
+		}
+			#e404-hello P {
+				color: #d7830a;
+			}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE project>
+<project name="Project Build" default="custom-build" basedir="../">
+
+	<target name="custom-build" description="(PRIVATE) Called from -copy and -copyall">
+		<echo message="==================================================================="/>
+		<echo message="Custom Project Build"/>
+	</target>
+
+</project>

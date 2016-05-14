@@ -1,0 +1,123 @@
+HTML {
+	color: #222;
+}
+BODY {
+	background: url(/img/web-bg_violet.jpg) #580262 0 0 / cover fixed;
+}
+A {
+	color: #222;
+}
+A:hover {
+    color: #0066EE;
+}
+A:visited {
+	color: #222;
+}
+ARTICLE A:hover {
+	border-bottom-color: #f8b1e2;
+}
+::-moz-selection { background: #b95ef7; color: #fff; text-shadow: none; }
+::selection { background: #b95ef7; color: #fff; text-shadow: none; }
+#menu A {
+	color: #FFF;
+}
+#menu A:hover, #menu A.selected {
+	color: #f8b1e2;
+}
+#content H2 {
+	color: #FFF;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+}
+#footer {
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+}
+.ismobile #footer {
+	background-color: #310235;
+}
+#footer DEL {
+	color: #aaa;
+}
+#tags A {
+	color: #fff;
+	background-color: #c97cc1;
+}
+#tags A:hover {
+	color: #85367d;
+	background-color: #fff;
+}
+UL.default LI::before {
+	background-position: left -1px;
+}
+.about-cube H3 {
+	color: #223695;
+}
+.about {
+	color: #FFF;
+}
+.js .about-cube H3:hover {
+	color: #cc10d1;
+}
+.no-js #about-short {
+	background-color: #9AA2A7;
+}
+.js .scrollable > DIV > DIV {
+	background-color: rgba(0,0,0,0.2) !important;
+}
+#portfolio-details {
+	background-color: #fff;
+}
+	#portfolio-details-arrow {
+		border-top-color: #fff;
+	}
+		#portfolio-details H3 A:hover {
+			color: #690275;
+		}
+		.portfolio-desc A:hover {
+			color: #a403b6;
+			border-bottom-color: #a403b6;
+		}
+		.portfolio-desc A.external {
+			color: #a403b6;
+		}
+		.portfolio-desc A.external:hover {
+			color: #f807f8;
+		}
+	#portfolio-work-descr {
+		background-color: #fff;
+	}
+	.portfolio-work HGROUP H3 {
+		color: #FFF;
+	}
+#contact #content, #contact #content a {
+	color: #FFF;
+}
+#contact-aside {
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+}
+	P#contact-error {
+		background-color: #e39b20;
+	}
+		.action-button {
+			color: #fff;
+			background-color: #a403b6;
+		}
+	#contact-message {
+		background-color: rgba(60,115,169, 0.9);
+	}
+	.no-rgba #contact-message {
+		background-color: #5d96cb;
+	}
+	#contact-message.error {
+		background-color: rgba(125,75,182, 0.9);
+	}
+	.no-rgba #contact-message.error {
+		background-color: #7d4bb6;
+	}
+		#contact-message .action-button {
+			background-color: #175A91;
+		}
+			#e404-hello P {
+				color: #fff;
+			}

@@ -1,0 +1,9 @@
+<p>Nombre<br>
+	<b>__username__</b>
+</p>
+<p>E-mail<br>
+	<b>__email__</b>
+</p><p>
+	Mensaje<br>
+	<b>__comment__</b>
+</p>

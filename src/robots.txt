@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-includes/
+Disallow: /css/
+Disallow: /demo/
+Disallow: /img/
+Disallow: /inc/
+Disallow: /*.js$
+Disallow: /portfolio/
+Disallow: /rol/
+Disallow: /rol/wiki/Special:Search
+Disallow: /rol/wiki/Special:Random
+Disallow: /contact-send
+Allow: /
+
+# Each section in the robots.txt file is separate and does not build upon previous sections.
+# So only the URLs matching /*.js$ would be disallowed for Googlebot.
+# User-agent: Googlebot
+# Disallow: /*.js$
+
+# Remove all images from Google Images
+User-agent: Googlebot-Image
+Disallow: /img/portfolio/
+
+Sitemap: http://raohmaru.com/sitemap.xml
+Sitemap: http://raohmaru.com/blog/sitemap.xml.gz

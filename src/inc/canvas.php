@@ -1,0 +1,1 @@
+<canvas id="bgcanvas" width="1" height="1"></canvas>

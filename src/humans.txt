@@ -1,0 +1,44 @@
+raohmaru.com
+[ES] Este sitio web es mantenido por Raúl Parralejo, mercenario del código y programador nómada. Ah, y por un mogwai.
+[CA] Aquest lloc web és mantingut per en Raúl Parralejo, mercenari del codi i programador nòmada. Ah, i per un mogwai.
+[EN] Web maintenance by Raúl Parralejo, mercenary of the code and nomadic programmer. And also by a mogwai.
+[FR] Ce website est maintenu par Raúl Parralejo, mercenaire du code et programmeur nomade. Et aussi par un mogwai.
+
+/* TEAM */
+    Owner: Raúl Parralejo
+    Twitter: @raulparralejo
+    Location: Cornella de Llobregat, Catalunya, Spain
+
+/* SITE */
+    Standards: HTML5, CSS3
+    Components: Modernizr, jQuery, iScroll
+    Languages: Castellano, Català, English, Française
+
+
+                       RRRRRRRRR                
+                    RRRRRRRRRRRRRRR             
+                 RRRRRRRRRRRRRRRRRRRRR          
+             RRRRRRRRRRRRRRRRRRRRRRRRRRRRR      
+          RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR   
+         RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR 
+        RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRr
+        RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+        RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+        RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+        RR   RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+        RR      RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+        RR         RRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+        RR            RRRRRRRRRRRRRRRRRRRRRRRRRR
+        RR     RR      RRRRRRRRRRRRRRRRRRRRRRRRR
+        RR     RRRr     RRRRRRRRRRRRRRRRRRRRRRRR
+        RR       RR     RRRRRRRRRRRRRRRRRRRRRRRR
+        RR              RRRRRRRRRRRRRRRRRRRRRRRR
+        RR             RRRRRRRRRRRRRRRRRRRRRRRRR
+        RR     RRR     RRRRRRRRRRRRRRRRRRRRRRRR 
+        ,RRR,  RRRR     RRRRRRRRRRRRRRRRRRRRRRR 
+          RRRRRRRRR     RRRRRRRRRRRRRRRRRRRRR   
+             RRRRRR     RRRRRRRRRRRRRRRRRR      
+                 RRRRRRRRRRRRRRRRRRRRR          
+                    RRRRRRRRRRRRRRR             
+                       RRRRRRRRR                
+                           R                    

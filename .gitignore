@@ -1,0 +1,9 @@
+art/
+build/intermediate/
+build/tools/
+publish/
+src/blog/
+src/img/
+src/rol/
+src/*.png
+src/*.ico

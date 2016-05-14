@@ -1,0 +1,315 @@
+/***********************************************************************
+ * MEDIA QUERIES for Responsive Design
+ */
+
+/* Big landscape tablets, laptops, and desktops */
+@media only screen and (max-width: 992px) {
+}
+
+/* Landscape tablets, large mobiles */
+@media only screen and (max-width: 768px) {
+	#portfolio-work-img {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	#contact-aside {
+		position: relative;
+		left: auto;
+		width: 82%;
+	}
+}
+
+/* Portrait tablets, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media only screen and (max-width: 600px) {
+	#content {
+		padding-left: 120px;
+	}
+		#content H2 {
+			font-size: 33px;
+		}
+	#footer {
+		font-size: 12px;
+	}
+	#portfolio-details {
+		background-image: none, none, none !important;
+	}
+	.no-multiplebgs #portfolio-details {
+		background-image: none !important;
+	}
+		#portfolio-details-content {
+			right: 10px;
+		}
+		#portfolio-details-img {
+			display: block;
+		}
+}
+
+/* Smartphones, Android phones, landscape iPhone */
+@media only screen and (max-width: 480px),
+/* Apple retina display 960x640 */
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 960px),
+only screen and (min--moz-device-pixel-ratio : 1.5) and (max-width: 960px),
+only screen and (min-device-pixel-ratio: 1.5) and (max-width: 960px) {
+	ARTICLE {
+		font-size: 14px;
+	}
+	.section #menu {
+		width: 60px;
+	}
+		.section #menu #menu-logo {
+			width: 48px;
+			height: 53px;
+			margin: 10px 0 0 6px;
+			background-position: -80px top;
+		}
+		.section #menu UL {
+			padding: 0 0 0 6px;
+			text-align: left;
+		}
+			.section #menu UL LI {
+				/* CSS3 transform */
+				-webkit-transform: none;
+				-moz-transform: none;
+				-o-transform: none;
+				-ms-transform: none;
+				transform: none;
+			}
+				.section #menu UL LI A {
+					display: block;
+					width: 48px;
+					height: 53px;
+					text-indent: -999em;
+					background: url(/img/menu-sprites-v2.png) no-repeat;
+				}
+				.section #menu #menu-about A { background-position: -128px top; }
+				.section #menu #menu-portfolio A { background-position: -176px top; }
+				.section #menu #menu-contact A { background-position: -224px top; }
+	#content {
+		padding-left: 72px;
+	}
+		#content H2,
+		#contact H2:nth-of-type(n+2) {
+			padding-top: 20px;
+			font-size: 30px;
+		}
+	#footer {
+		font-size: 11px;
+	}
+	#footer-work {
+		display: none !important;
+	}
+	#footer LI {
+		padding-right: 14px;
+		background-position: right -48px;
+	}
+	.external::before {
+		display: none;
+	}
+	#tags {
+		float: right;
+	}
+	#about-img {
+		display: none;
+	}
+	#about-short-title {
+		top: 55px;
+		left: 78px;
+		width: 157px;
+		height: 168px;
+		background-position: left -218px;
+	}
+		#about-short-title H3 {
+			padding: 56px 0 7px 30px;
+		}
+		#about-short-title H4 {
+			padding-left: 30px !important;
+		}
+	#about-long-title {
+		top: 94px;
+		left: 200px;
+		width: 212px;
+		height: 196px;
+		background-position: -200px -218px;
+	}
+		#about-long-title H3 {
+			padding: 73px 0 7px 33px;
+		}
+		#about-long-title H4 {
+			padding-left: 33px !important;
+		}
+	.portfolio #content {
+		padding-right: 0;
+	}
+	#portfolio-details-content {
+		left: 10px;
+		right: 6px;
+		bottom: 6px;
+	}
+	#portfolio-details-close {
+		margin: -4px -6px 0 0;
+	}
+	#portfolio-details.expand {
+		left: 72px;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 10px;
+	}
+	#portfolio-work-descr {
+		margin-top: 15px;
+	}
+	#contact-aside {
+		padding: 12px 16px;
+		font-size: 14px;
+	}
+}
+
+/* Smartphones, Android phones, portrait iPhone */
+@media only screen and (max-width: 320px),
+/* Apple retina display 960x640 */
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 640px),
+only screen and (min--moz-device-pixel-ratio : 1.5) and (max-width: 640px),
+only screen and (min-device-pixel-ratio: 1.5) and (max-width: 640px) {
+	.home #menu A {
+		font-size: 27px;
+	}
+	.section #main {
+		padding-top: 64px;
+	}
+	.section #menu {
+		position: absolute;
+		width: 100%;
+	}
+		.section #menu #menu-logo {
+			float: left;
+			margin-right: 4px;
+		}
+		.section #menu UL {
+			padding: 10px 0 0 0;
+			text-align: left;
+		}
+			.section #menu UL LI {
+				float: left;
+				padding-right: 4px;
+			}
+	#content {
+		padding-left: 10px;
+	}
+		#content H2 {
+			padding-top: 10px;
+			font-size: 23px;
+		}
+	#about-short-title {
+		top: 110px;
+		left: 10px;
+	}
+	#about-long-title {
+		top: 190px;
+		left: 70px;
+	}
+	#portfolio-details.expand {
+		left: 0;
+		right: 0;
+		top: 66px;
+		bottom: 0;
+	}
+	#portfolio-details-content {
+		font-size: 14px;
+		line-height: 1.2em;
+	}
+	.portfolio-work ASIDE A {
+		margin-right: 5px;
+	}
+}
+
+/* VGA portrait phones */
+@media only screen and (max-width: 240px) {
+	ARTICLE {
+		font-size: 12px;
+	}
+	#footer-copy {
+		display: none !important;
+	}
+	#home-logo {
+		width: 144px;
+		height: 166px;
+		margin: -90px 0 0 0px !important;
+	}
+	.home #menu {
+		padding: 30px 0 0 0;
+	}
+		.home #menu LI {
+			text-align: center;
+			/* CSS3 transform */
+			-webkit-transform: none;
+			-moz-transform: none;
+			-o-transform: none;
+			-ms-transform: none;
+			transform: none;
+		}
+		.home #menu A {
+			font-size: 18px;
+		}
+	#portfolio-details-content {
+		font-size: 12px;
+		line-height: 1em;
+	}
+}
+/* Smartphones, Android phones, portrait iPhone */
+@media only screen and (max-height: 480px) {
+	 #home-logo {
+		margin-top: -150px;
+	}
+}
+
+/* Landscape phones */
+@media only screen and (max-height: 320px) and (orientation: landscape) {
+	 #home-logo {
+		width: 144px;
+		height: 166px;
+		margin: -80px 0 0 -60px;
+	}
+	 .home #menu {
+		width: 104px;
+		margin-top: -157px;
+		padding-left: 220px;
+	}
+		 .home #menu LI {
+			width: 104px;
+		}
+		 .home #menu A {
+			font-size: 18px;
+		}
+	 #e404-logo {
+		width: 144px;
+		height: 166px;
+	}
+	 #e404-hello {
+		width: 144px;
+		margin-top: -20px;
+		padding-bottom: 46px;
+	}
+		 #e404-hello P {
+			font-size: 18px;
+		}
+}
+/* Landscape VGA phones */
+@media only screen and (max-height: 240px) {
+	 #home-logo {
+		margin-left: -110px !important;
+		margin-top: -90px !important;
+	}
+	 .home #menu {
+		padding-left: 170px;
+	}
+}
+
+/* Apple retina display 960x640 */
+/* -o-min-device-pixel-ratio: 3/2 breaks the CSS compressor */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+	
+}
