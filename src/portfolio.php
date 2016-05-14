@@ -44,7 +44,7 @@ $portfolio = new Portfolio();
 <script src="/js/plugins.js"></script>
 <script src="/js/script.js"></script>
 <!-- end scripts -->
-<script src="/js/libs/iscroll.js"></script>
+<script src="/js/libs/iscroll.min.js"></script>
 
 <script>
 $(document).ready(function() {
