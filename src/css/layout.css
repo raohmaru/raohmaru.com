@@ -118,15 +118,15 @@ UL.default {
 	width: 24px;
 	height: 24px;
 	text-indent: -999em;
-	background-image: url(/img/web-sprites-v3.png);
+	background-image: url(/img/web-sprites-v4.png);
 	background-repeat: no-repeat;
 }
 .icon-linkedin { background-position: 0 -24px; }
 .icon-twitter  { background-position: -24px -24px; }
 .icon-rss      { background-position: -48px 0; }
 .icon-blog     { background-position: -48px -24px; }
-.icon-link     { background-position: 0 -48px; }
-.icon-close    { background-position: -24px -48px; }
+.icon-close    { background-position: -24px 0; }
+.icon-github   { background-position: 0 0; }
 
 .external::before {
 	content: "\00bb";
