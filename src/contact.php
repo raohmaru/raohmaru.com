@@ -7,7 +7,7 @@
 <link rel="canonical" href="http://raohmaru.com/contact">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="/css/style.css">
-<script src="/js/vendor/modernizr-2.5.3.min.js"></script>
+<script src="/js/vendor/modernizr-3.3.1.min.js"></script>
 </head>
 
 <body class="section" id="contact">

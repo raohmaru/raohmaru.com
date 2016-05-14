@@ -246,11 +246,7 @@ BODY.home {
 
 		/*************************************************
 		 * Menu animation
-		 */		
-		/* No CSS opacity support */
-		.no-opacity.js .home #menu LI {
-			display: none;
-		}
+		 */
 		.js .menu-anim-start {
 			top: -60px;
 			opacity: 0;
@@ -873,10 +869,6 @@ BODY.e404 {
 			.js #e404-hello P {
 				top: 60px;
 				opacity: 0;
-			}
-			/* No CSS opacity support */
-			.no-opacity.js #e404-hello P {
-				display: none;
 			}
 			#e404-hello.anim P {
 				/* CSS3 transition */

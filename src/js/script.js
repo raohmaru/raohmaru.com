@@ -60,9 +60,7 @@ var raoh =
 				else
 					$(this).delay(d).animate({
 						top:top[idx],
-						// Older browser may not support CSS opacity. Instead, content is hidden with
-						// display:none, and only will show with the "show" value
-						opacity:(Modernizr.opacity ? 1 : "show")
+						opacity: 1
 					}, 500+idx*100);
 			});
 			
@@ -467,10 +465,8 @@ var raoh =
 				setTimeout(function(){ $("#e404-hello").addClass('anim'); }, 1000);
 			else
 				$("#e404-hello P").delay(1000).animate({
-					top:0,					
-					// Older browser may not support CSS opacity. Instead, content is hidden with
-					// display:none, and only will show with the "show" value
-					opacity:(Modernizr.opacity ? 1 : "show")
+					top:0,
+					opacity: 1
 				}, 500);
 		}
 	},

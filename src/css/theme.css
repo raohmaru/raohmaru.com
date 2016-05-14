@@ -95,14 +95,8 @@ ARTICLE A:hover {
 	#contact-message {
 		background-color: rgba(60,115,169, 0.9);
 	}
-	.no-rgba #contact-message {
-		background-color: #5d96cb;
-	}
 	#contact-message.error {
 		background-color: rgba(125,75,182, 0.9);
-	}
-	.no-rgba #contact-message.error {
-		background-color: #7d4bb6;
 	}
 		#contact-message .action-button {
 			background-color: #175A91;
