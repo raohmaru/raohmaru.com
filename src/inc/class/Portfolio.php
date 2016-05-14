@@ -2,7 +2,7 @@
 /** 
  * Loads the portfolio data from a JSON.
  *
- * @version 1.0
+ * @version 1.1
  * @author Raohmaru
  */
 
@@ -18,28 +18,43 @@ class Portfolio
 		{
 			$this->raw = file_get_contents(DOCROOT . "/js/portfolio.json");
 			$this->_json = json_decode($this->raw);
+			
 		}
 	}
 	
 	/**
 	 * Generates the HTML from the JSON data.
 	 */
-	function Build($key, $title)
+	function Build()
 	{
-		if( $this->_json == NULL || !isset($this->_json->$key) )
-			return;
+		if($this->_json == NULL)
+			return "";
 		
-		$cat = $this->_json->$key;
-		$i = 0;
-		$str =	'<h2>' . $title . '</h2>' . 
-				'<div class="scrollable">' . 
-					'<ul id="portfolio-' . $key . '">';
+		$itemsByTag = array();		
+		foreach($this->_json->items as $item) {
+			if(!isset($itemsByTag[$item->t]))
+				$itemsByTag[$item->t] = array();
+			array_push($itemsByTag[$item->t], $item);
+		}
 		
-		foreach ($cat as $w)
-			$str .= '<li>' . $this->_BuildItem($w, $key, $i++) . '</li>';
-		
-		$str .=		'</ul>' .
-				'</div>';
+		$str = '';
+		foreach($itemsByTag as $tag => $items) {
+			if(!isset($this->_json->tags->$tag))
+				continue;
+			
+			$i = 0;
+			$str .=	'<h2>' . $this->_json->tags->$tag . '</h2>' . 
+					'<div class="scrollable">' . 
+						'<ul id="portfolio-' . $tag . '">';
+			
+			foreach ($items as $item) {
+				if($item->t === $tag)
+					$str .= '<li>' . $this->_BuildItem($item, $tag, $i++) . '</li>';
+			}
+			
+			$str .=		'</ul>' .
+					'</div>';
+		}		
 		
 		return $str;
 	}
@@ -49,18 +64,17 @@ class Portfolio
 	 */
 	function GetObject($key)
 	{
-		if( $this->_json == NULL )
+		if($this->_json == NULL )
 			return NULL;
 		
 		if(!is_string($key) || empty($key))
 			return NULL;
 		
-		foreach($this->_json as $cat)
+		foreach($this->_json->items as $item)
 		{
-			foreach($cat as $item)
-			{
-				if($item->L == $key)
-					return $item;
+			if($item->L == $key) {
+				$item->tagName = $this->_json->tags->{$item->t};
+				return $item;
 			}
 		}
 		
@@ -72,12 +86,10 @@ class Portfolio
 	 */
 	function BuildRandom($num, $exclude='')
 	{
-		if( $this->_json == NULL )
+		if($this->_json == NULL )
 			return NULL;
 		
-		$arr = array();
-		foreach($this->_json as $cat)
-			$arr = array_merge($arr, $cat);
+		$arr = $this->_json->items;
 		shuffle($arr);
 		
 		$str = '';

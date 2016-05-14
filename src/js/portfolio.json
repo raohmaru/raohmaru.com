@@ -1,243 +1,245 @@
 {
-
-"html" : [
-	{
-		"T" : "CREA by MONTÓ",
-		"A" : "Single page de producto",
-		"A2": "Single page de producto",
-		"L" : "monto-crea",
-		"C" : "06",
-		"I" : "/img/portfolio/monto-crea.jpg",
-		"I2": "/img/portfolio/monto-crea_bg.jpg",
-		"t" : "html",
-		"D" : "<p><a href='//es.wikipedia.org/wiki/Single-page_application' target='_blank'><em lang='en'>Single-page application</em></a> de producto desarrollada utilizando la plataforma <a href='//wordpress.org/' target='_blank'>Wordpress</a>. Animación por scroll adaptada para dispositivos móviles y pantallas táctiles.</p><p><a href='//pinturasmonto.com.mialias.net' target='_blank' class='external' rel='nofollow'>Ver sitio</a></p><br><ul><li>Cliente: New Branding</li></ul>"
-	},
-	{
-		"T" : "Suplasyn",
-		"A" : "Adaptación nueva gráfica",
-		"A2": "Adaptación a la nueva imagen gráfica y mejora del código",
-		"L" : "suplasyn",
-		"C" : "03",
-		"I" : "/img/portfolio/suplasyn.jpg",
-		"I2": "/img/portfolio/suplasyn_bg.jpg",
-		"t" : "html",
-		"D" : "<p>Remodelación y conversión a <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a> y <a href='//www.w3.org/Style/CSS/' target='_blank'>CSS3</a> del sitio web, aprovechando la adaptación a una nueva imagen e identidad gráfica.<br>Los vídeos disponibles en formato Flash vídeo fueron adaptados para dispositivos móviles, utilizando como reproductor la librería <a href='http://mediaelementjs.com/' target='_blank'>MediaElement.js</a>.</p><p>Optimización del código PHP utilizado para generar las páginas del sitio.</p><p><a href='//new.suplasyn.com/front/index.php' target='_blank' class='external' rel='nofollow'>suplasyn.com</a></p><br><ul><li>Cliente: Nova Harriet</li></ul>"
-	},
-	{
-		"T" : "Shakira Beauty",
-		"A" : "Website HTML5",
-		"A2": "Website HTML5 + JavaScript con Parallax scrolling",
-		"L" : "shakirabeauty",
-		"C" : "14",
-		"I" : "/img/portfolio/shakirabeauty.jpg",
-		"I2": "/img/portfolio/shakirabeauty_bg.jpg",
-		"t" : "html",
-		"D" : "<p>Completa actualización del sitio web de la marca Shakira Beauty con motivo del lanzamiento de la nueva fragancia <em>Shakira Wild</em>.</p><p>Utilizando la tecnología <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a>, se desarrolló un sitio completamente dinámico donde el usuario experimenta con la interfaz animándola con la barra de scroll, a la vez que se desplaza por el contenido. Se tuvo en gran consideración el rendimiento en la programación <a href='//developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank'>JavaScript</a> para conseguir unos efectos óptimos sin ralentizaciones.</p><p>Optimizado para la mayoría de navegadores de escritorio, con compatibilidad hasta Internet Explorer 8, y también para <em lang='en'>tablets</em>.</p><p><a href='//www.shakira-beauty.com/' target='_blank' class='external' rel='nofollow'>www.shakira-beauty.com/</a></p>"
-	},
-	{
-		"T" : "Vuvivi",
-		"A" : "Stuttgarter Kinderguide",
-		"A2": "Stuttgarter Kinderguide: Adressen, Tipps und Links",
-		"L" : "vuvivi",
-		"C" : "05",
-		"I" : "/img/portfolio/vuvivi.jpg",
-		"I2": "/img/portfolio/vuvivi_bg.jpg",
-		"t" : "html",
-		"D" : "<p>Sitio web en dos idiomas (alemán y ruso) con direcciones y enlaces útiles para realizar actividades infantiles en <a href='//es.wikipedia.org/wiki/Stuttgart' target='_blank'>Stuttgart</a>.</p><p>Programación del sitio en HTML5, CSS3, JavaScript y PHP.</p><p><a href='//vuvivi.de/' target='_blank' class='external' rel='nofollow'>vuvivi.de/</a></p><br><ul><li>Cliente: Vuvivi</li><li>Diseño: <a href='//www.mariarojocalabuig.com/' target='_blank'>María Rojo</a></li></ul>"
-	},
-	{
-		"T" : "JLB",
-		"A" : "Página web oficial",
-		"A2": "Página web oficial HTML5",
-		"L" : "jlb",
-		"C" : "26",
-		"I" : "/img/portfolio/jlb.jpg",
-		"I2": "/img/portfolio/jlb_bg.jpg",
-		"t" : "html",
-		"D" : "<p>Actualización de la página web del director de fotografía de origen sevillano Jose Luís Bernal.</p><p>Dos años después de realizar la primera versión en Adobe Flash, era necesario actualizar el sitio a las nuevas tecnologías y dispositivos móviles, haciéndola universalmente accesible. Esta nueva versión ha sido desarrollada con <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a> y <a href='//www.w3.org/Style/CSS/' target='_blank'>CSS3</a>, utilizando de soporte librerías JavaScript como <a href='//jquery.com/' target='_blank'>jQuery</a> o <a href='//modernizr.com/' target='_blank'>modernizr</a>.</p></p><p><a href='//joseluisbernal.es/' target='_blank' class='external' rel='nofollow'>joseluisbernal.es/</a></p>"
-	},
-	{
-		"T" : "El Pallol",
-		"A" : "Plano interactivo",
-		"A2": "Plano interactivo HTML y JavaScript",
-		"L" : "elpallol",
-		"C" : "01",
-		"I" : "/img/portfolio/elpallol.png",
-		"I2": "/img/portfolio/elpallol_bg.png",
-		"t" : "html",
-		"D" : "<p>Actualización del plano del <a href='//www.elpallol.cat/' target='_blank'>centro comercial El Pallol</a>, en Reus (Tarragona).<br>Originalmente el plano estaba basado en Adobe Flash, por lo que no era accesible ni visible desde algunos dispositivos móviles y <em lang='en'>tablets</em>. El nuevo plano optimizado ha sido desarrollado en HTML y JavaScript, y es compatible con la gran mayoría de navegadores de las distintas plataformas, incluido Internet Explorer 6.</p><p>Para el resaltado de las tiendas se utilizó el plugin de <a href='//jquery.com/' target='_blank'>jQuery</a> <a href='//www.outsharked.com/imagemapster/' target='_blank'>ImageMapster</a>.</p><p><a href='//www.elpallol.cat/botigues' target='_blank' class='external' rel='nofollow'>www.elpallol.cat/botigues</a></p>"
-	},
-	{
-		"T" : "URGO Medical",
-		"A" : "Microsite",
-		"A2": "Microsite HTML optimizada para iPad",
-		"L" : "urgo",
-		"C" : "02",
-		"I" : "/img/portfolio/urgo.jpg",
-		"I2": "/img/portfolio/urgo_bg.png",
-		"t" : "html",
-		"D" : "<p>Pequeña aplicación desarrollada en <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a>, <a href='//www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo' target='_blank'>CSS3</a> y <a href='//jquery.com/' target='_blank'>jQuery</a>.<br>Uno de los requerimientos era la compatibilidad con el navegador Safari de la tableta iPad, además de mantenerla con los principales navegadores de escritorio. Por esta razón, para cargar el sonido se utilizó el nuevo elemento de HTML5 <a href='https://developer.mozilla.org/En/HTML/Element/Audio' target='_blank'>&lt;audio&gt;</a>, que permite reproducir un archivo de audio del servidor sin utilizar Flash (aunque sí se utiliza para mantener la compatibilidad con navegadores antiguos que no soportan dicho elemento).</p><p>La animación de los carros fue realizada con Adobe Flash, para luego exportar los fotogramas como imágenes y crear la secuencia de movimiento con CSS y JavaScript.</p><p><a href='/demo/urgomed/' target='_blank' class='external' rel='nofollow'>Ver aplicación</a></p>"
-	},
-	{
-		"T" : "BeOn Automotive",
-		"A" : "Página web corporativa",
-		"A2": "Página web corporativa PHP",
-		"L" : "beon",
-		"C" : "13",
-		"I" : "/img/portfolio/beon.jpg",
-		"I2": "/img/portfolio/beon_bg.jpg",
-		"t" : "html",
-		"D" : "<p>Sitio web corporativo para una empresa dedicada al motociclismo de competición.<br>Maquetación realizada en HTML, con fuerte presencia de JavaScript para efectos dinámicos e interacciones con el usuario. <a href='//es.wikipedia.org/wiki/Front-end_y_back-end' target='_blank'>Backend</a> programado en PHP y MySQL que genera <a href='//es.wikipedia.org/wiki/URL_sem%C3%A1ntica' target='_blank'>direcciones URL \"amigables\"</a> para la navegación. Administrador de contenidos, programado también en PHP, para gestionar todos los apartados del sitio en dos idiomas.</p><p><a href='//www.beonautomotive.es/' target='_blank' class='external' rel='nofollow'>www.beonautomotive.es/</a></p>"
+	"items": [
+		{
+			"T" : "CREA by MONTÓ",
+			"A" : "Single page de producto",
+			"A2": "Single page de producto",
+			"L" : "monto-crea",
+			"C" : "06",
+			"I" : "/img/portfolio/monto-crea.jpg",
+			"I2": "/img/portfolio/monto-crea_bg.jpg",
+			"t" : "html",
+			"D" : "<p><a href='//es.wikipedia.org/wiki/Single-page_application' target='_blank'><em lang='en'>Single-page application</em></a> de producto desarrollada utilizando la plataforma <a href='//wordpress.org/' target='_blank'>Wordpress</a>. Animación por scroll adaptada para dispositivos móviles y pantallas táctiles.</p><p><a href='//pinturasmonto.com.mialias.net' target='_blank' class='external' rel='nofollow'>Ver sitio</a></p><br><ul><li>Cliente: New Branding</li></ul>"
+		},
+		{
+			"T" : "Suplasyn",
+			"A" : "Adaptación nueva gráfica",
+			"A2": "Adaptación a la nueva imagen gráfica y mejora del código",
+			"L" : "suplasyn",
+			"C" : "03",
+			"I" : "/img/portfolio/suplasyn.jpg",
+			"I2": "/img/portfolio/suplasyn_bg.jpg",
+			"t" : "html",
+			"D" : "<p>Remodelación y conversión a <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a> y <a href='//www.w3.org/Style/CSS/' target='_blank'>CSS3</a> del sitio web, aprovechando la adaptación a una nueva imagen e identidad gráfica.<br>Los vídeos disponibles en formato Flash vídeo fueron adaptados para dispositivos móviles, utilizando como reproductor la librería <a href='http://mediaelementjs.com/' target='_blank'>MediaElement.js</a>.</p><p>Optimización del código PHP utilizado para generar las páginas del sitio.</p><p><a href='//new.suplasyn.com/front/index.php' target='_blank' class='external' rel='nofollow'>suplasyn.com</a></p><br><ul><li>Cliente: Nova Harriet</li></ul>"
+		},
+		{
+			"T" : "Shakira Beauty",
+			"A" : "Website HTML5",
+			"A2": "Website HTML5 + JavaScript con Parallax scrolling",
+			"L" : "shakirabeauty",
+			"C" : "14",
+			"I" : "/img/portfolio/shakirabeauty.jpg",
+			"I2": "/img/portfolio/shakirabeauty_bg.jpg",
+			"t" : "html",
+			"D" : "<p>Completa actualización del sitio web de la marca Shakira Beauty con motivo del lanzamiento de la nueva fragancia <em>Shakira Wild</em>.</p><p>Utilizando la tecnología <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a>, se desarrolló un sitio completamente dinámico donde el usuario experimenta con la interfaz animándola con la barra de scroll, a la vez que se desplaza por el contenido. Se tuvo en gran consideración el rendimiento en la programación <a href='//developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank'>JavaScript</a> para conseguir unos efectos óptimos sin ralentizaciones.</p><p>Optimizado para la mayoría de navegadores de escritorio, con compatibilidad hasta Internet Explorer 8, y también para <em lang='en'>tablets</em>.</p><p><a href='//www.shakira-beauty.com/' target='_blank' class='external' rel='nofollow'>www.shakira-beauty.com/</a></p>"
+		},
+		{
+			"T" : "Vuvivi",
+			"A" : "Stuttgarter Kinderguide",
+			"A2": "Stuttgarter Kinderguide: Adressen, Tipps und Links",
+			"L" : "vuvivi",
+			"C" : "05",
+			"I" : "/img/portfolio/vuvivi.jpg",
+			"I2": "/img/portfolio/vuvivi_bg.jpg",
+			"t" : "html",
+			"D" : "<p>Sitio web en dos idiomas (alemán y ruso) con direcciones y enlaces útiles para realizar actividades infantiles en <a href='//es.wikipedia.org/wiki/Stuttgart' target='_blank'>Stuttgart</a>.</p><p>Programación del sitio en HTML5, CSS3, JavaScript y PHP.</p><p><a href='//vuvivi.de/' target='_blank' class='external' rel='nofollow'>vuvivi.de/</a></p><br><ul><li>Cliente: Vuvivi</li><li>Diseño: <a href='//www.mariarojocalabuig.com/' target='_blank'>María Rojo</a></li></ul>"
+		},
+		{
+			"T" : "JLB",
+			"A" : "Página web oficial",
+			"A2": "Página web oficial HTML5",
+			"L" : "jlb",
+			"C" : "26",
+			"I" : "/img/portfolio/jlb.jpg",
+			"I2": "/img/portfolio/jlb_bg.jpg",
+			"t" : "html",
+			"D" : "<p>Actualización de la página web del director de fotografía de origen sevillano Jose Luís Bernal.</p><p>Dos años después de realizar la primera versión en Adobe Flash, era necesario actualizar el sitio a las nuevas tecnologías y dispositivos móviles, haciéndola universalmente accesible. Esta nueva versión ha sido desarrollada con <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a> y <a href='//www.w3.org/Style/CSS/' target='_blank'>CSS3</a>, utilizando de soporte librerías JavaScript como <a href='//jquery.com/' target='_blank'>jQuery</a> o <a href='//modernizr.com/' target='_blank'>modernizr</a>.</p></p><p><a href='//joseluisbernal.es/' target='_blank' class='external' rel='nofollow'>joseluisbernal.es/</a></p>"
+		},
+		{
+			"T" : "El Pallol",
+			"A" : "Plano interactivo",
+			"A2": "Plano interactivo HTML y JavaScript",
+			"L" : "elpallol",
+			"C" : "01",
+			"I" : "/img/portfolio/elpallol.png",
+			"I2": "/img/portfolio/elpallol_bg.png",
+			"t" : "html",
+			"D" : "<p>Actualización del plano del <a href='//www.elpallol.cat/' target='_blank'>centro comercial El Pallol</a>, en Reus (Tarragona).<br>Originalmente el plano estaba basado en Adobe Flash, por lo que no era accesible ni visible desde algunos dispositivos móviles y <em lang='en'>tablets</em>. El nuevo plano optimizado ha sido desarrollado en HTML y JavaScript, y es compatible con la gran mayoría de navegadores de las distintas plataformas, incluido Internet Explorer 6.</p><p>Para el resaltado de las tiendas se utilizó el plugin de <a href='//jquery.com/' target='_blank'>jQuery</a> <a href='//www.outsharked.com/imagemapster/' target='_blank'>ImageMapster</a>.</p><p><a href='//www.elpallol.cat/botigues' target='_blank' class='external' rel='nofollow'>www.elpallol.cat/botigues</a></p>"
+		},
+		{
+			"T" : "URGO Medical",
+			"A" : "Microsite",
+			"A2": "Microsite HTML optimizada para iPad",
+			"L" : "urgo",
+			"C" : "02",
+			"I" : "/img/portfolio/urgo.jpg",
+			"I2": "/img/portfolio/urgo_bg.png",
+			"t" : "html",
+			"D" : "<p>Pequeña aplicación desarrollada en <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a>, <a href='//www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo' target='_blank'>CSS3</a> y <a href='//jquery.com/' target='_blank'>jQuery</a>.<br>Uno de los requerimientos era la compatibilidad con el navegador Safari de la tableta iPad, además de mantenerla con los principales navegadores de escritorio. Por esta razón, para cargar el sonido se utilizó el nuevo elemento de HTML5 <a href='https://developer.mozilla.org/En/HTML/Element/Audio' target='_blank'>&lt;audio&gt;</a>, que permite reproducir un archivo de audio del servidor sin utilizar Flash (aunque sí se utiliza para mantener la compatibilidad con navegadores antiguos que no soportan dicho elemento).</p><p>La animación de los carros fue realizada con Adobe Flash, para luego exportar los fotogramas como imágenes y crear la secuencia de movimiento con CSS y JavaScript.</p><p><a href='/demo/urgomed/' target='_blank' class='external' rel='nofollow'>Ver aplicación</a></p>"
+		},
+		{
+			"T" : "BeOn Automotive",
+			"A" : "Página web corporativa",
+			"A2": "Página web corporativa PHP",
+			"L" : "beon",
+			"C" : "13",
+			"I" : "/img/portfolio/beon.jpg",
+			"I2": "/img/portfolio/beon_bg.jpg",
+			"t" : "html",
+			"D" : "<p>Sitio web corporativo para una empresa dedicada al motociclismo de competición.<br>Maquetación realizada en HTML, con fuerte presencia de JavaScript para efectos dinámicos e interacciones con el usuario. <a href='//es.wikipedia.org/wiki/Front-end_y_back-end' target='_blank'>Backend</a> programado en PHP y MySQL que genera <a href='//es.wikipedia.org/wiki/URL_sem%C3%A1ntica' target='_blank'>direcciones URL \"amigables\"</a> para la navegación. Administrador de contenidos, programado también en PHP, para gestionar todos los apartados del sitio en dos idiomas.</p><p><a href='//www.beonautomotive.es/' target='_blank' class='external' rel='nofollow'>www.beonautomotive.es/</a></p>"
+		},
+		{
+			"T" : "Bodegas Torres 360º",
+			"A" : "Video 360º",
+			"A2": "Video inmersivo Flash 360",
+			"L" : "torres360",
+			"C" : "04",
+			"I" : "/img/portfolio/torres360.jpg",
+			"I2": "/img/portfolio/torres360_bg.jpg",
+			"t" : "flash",
+			"D" : "<p>Desarrollo de un reproductor para vídeos inmersivos 360º, programado en ActionScript 3.</p><p><a href='//video360.torres.es' target='_blank' class='external' rel='nofollow'>video360.torres.es</a></p><br><ul><li>Cliente: Mister Fogg</li></ul>"
+		},
+		
+		{
+			"T" : "Hablemos de drogas",
+			"A" : "Exposición virtual",
+			"A2": "Exposición virtual 3D en Flash",
+			"L" : "hdd",
+			"C" : "10",
+			"I" : "/img/portfolio/hdd.gif",
+			"I2": "/img/portfolio/hdd_bg.png",
+			"t" : "flash",
+			"D" : "<p>Aplicación web y de escritorio programada con Adobe Flash y Action Script 3.</p><p>Esta aplicación interactiva permite al usuario visitar la exposición <a href='//www.hablemosdedrogas.org/es/home' target='_blank'>“Hablemos de drogas”</a>, impulsada por la Obra Social “la Caixa”, donde puede conocer de primera mano el impacto que tiene el consumo de drogas sobre la población más joven.</p><p>En un entorno tridimensional desarrollado con <a href='//away3d.com/' target='_blank'>Away3D</a>, el usuario puede visitar las diez salas de la exposición y jugar con las piezas interactivas que existen en cada una de las salas.</p><p><a href='//www.hablemosdedrogas.org/exposicion' target='_blank' class='external' rel='nofollow'>www.hablemosdedrogas.org/exposicion/</a></p>"
+		},
+		{
+			"T" : "Mundo Espresso",
+			"A" : "Microsite",
+			"A2": "Microsite Flash y mapa interactivo",
+			"L" : "mundoespresso",
+			"C" : "17",
+			"I" : "/img/portfolio/mundoespresso.png",
+			"I2": "/img/portfolio/mundoespresso_bg.png",
+			"t" : "flash",
+			"D" : "<p>Mundo virtual y interactivo de Nescafé Dolce Gusto.</p><p>Programado y animado en Adobe Flash, el mapa del mundo tiene varios niveles de <span lang='en'>zoom</span>, teniendo tanto detalle el nivel máximo que una imagen a ese tamaño afectaría negativamente el rendimiento la aplicación. Para evitarlo, se dividió en secciones rectangulares la ilustración, generando una imagen <a href='//es.wikipedia.org/wiki/Portable_Network_Graphics' target='_blank'>PNG</a> de cada sección a diferentes resoluciones; así, el usuario descarga únicamente las imágenes necesarias según la zona que explora y el nivel de acercamiento.</p><p>Para mejorar la accesibilidad, los diferentes apartados son accesibles vía dirección URL gracias a la librería <a href='//www.asual.com/swfaddress/' target='_blank'>SWFAddress</a>.</p><p><a href='/demo/elmundoespresso/' target='_blank' class='external' rel='nofollow'>Visitar</a></p>"
+		},
+		{
+			"T" : "Andalucía La Comunidad",
+			"A" : "Animación Flash",
+			"A2": "Animación en Flash y montaje en Premiere",
+			"L" : "andalucia-comunidad",
+			"C" : "25",
+			"I" : "/img/portfolio/andalucia-comunidad.png",
+			"I2": "/img/portfolio/andalucia-comunidad_bg.png",
+			"t" : "flash",
+			"D" : "<p>Vídeo promocional para la web de <a href='//www.andalucia.org/' target='_blank'>Turismo de Andalucía</a> y su nueva comunidad / red social orientada a los usuarios y turistas.</p><p>La animación 2D fue enteramente relizada en Adobe Flash, los efectos de postproducción añadidos con Adobe After Effects, y el montaje final de la secuencia de vídeo coordinada con el audio en Adobe Premiere.</p><p><a href='//youtu.be/kA6jHlF4fMQ' target='_blank' class='external' rel='nofollow'>Ver vídeo</a></p>"
+		},
+		{
+			"T" : "Evaristo Benítez",
+			"A" : "Página oficial",
+			"A2": "Página oficial en Flash",
+			"L" : "evaristobenitez",
+			"C" : "24",
+			"I" : "/img/portfolio/evaristobenitez.jpg",
+			"I2": "/img/portfolio/evaristobenitez_bg.jpg",
+			"t" : "flash",
+			"D" : "<p>Página web desarrollada en Adobe Flash para el artista de <a href='//www.cornellaweb.cat' target='_blank'>Cornellà</a> Evaristo Benítez.</p><p>El sitio corresponde a la carrera creativa del artista, con interacciones con el usuario en cada una de las secciones, comenzando por la página de inicio donde una escultura en 3D (programada en <a href='//away3d.com/' target='_blank'>Away3D</a>) rota según la posición del cursor.</p><p><a href='//evaristobenitez.es/' target='_blank' class='external' rel='nofollow'>evaristobenitez.es</a></p>"
+		},
+		
+		{
+			"T" : "DominoMath",
+			"A" : "Juego drag'n drop educativo",
+			"A2": "Juego drag'n drop educativo HTML5 con piezas de dominó",
+			"L" : "dominomath",
+			"C" : "32",
+			"I" : "/img/portfolio/dominomath.jpg",
+			"I2": "/img/portfolio/dominomath_bg.jpg",
+			"t" : "game",
+			"D" : "<p>Juego de navegador para ordenadores de escritorio y <em lang='en'>tablets</em>, desarrollado en <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a> y enteramente programado con JavaScript. La idea original del juego es del educador colombiano Javier González.</p><p>Características:</p><ul><li>Aplicación de una sola página (en inglés <em lang='en'>Single-page application</em> o <abbr title='Single-page application'>SPA</abbr>), utilizando la librería <a href='//requirejs.org' target='_blank'>require.js</a> para la carga de módulos.</li><li><a href='//mustache.github.io/' target='_blank'>mustache</a> para gestionar las plantillas.</li><li><a href='//ricostacruz.com/jquery.transit' target='_blank'>jQuery Transit</a> para animar vía CSS3.</li><li><a href='//es.wikipedia.org/wiki/Twitter_Bootstrap' target='_blank'>Twitter Bootstrap</a> como base de la estructura HTML y CSS de la aplicación.</li></ul><p><a href='//raohmaru.com/demo/dominomath/' target='_blank' class='external' rel='nofollow'>Jugar</a></p><br><ul><li>Cliente: Wikiduca</li></ul>"
+		},
+		{
+			"T" : "Money Crush",
+			"A" : "Conecta monedas y gana",
+			"A2": "Juego Flash de conectar monedas",
+			"L" : "moneycrush",
+			"C" : "20",
+			"I" : "/img/portfolio/moneycrush.jpg",
+			"I2": "/img/portfolio/moneycrush_bg.png",
+			"t" : "game",
+			"D" : "<p>Juego realizado en Adobe Flash <a href='//es.wikipedia.org/wiki/ActionScript#Ventajas_de_ActionScript_3.0' target='_blank'>ActionScript 3</a>, influenciado por el juego <a href='//es.wikipedia.org/wiki/Candy_Crush_Saga' target='_blank'>Candy Crush</a> y otros juegos del tipo <a href='//en.wikipedia.org/wiki/Tile-matching_video_game' target='_blank'><span lang='en' title='Conectar 3'>match-three</span></a>.</p><p>Toda la mecánica y el motor del juego se ha programado desde cero, como proceso de aprendizaje de los mecanismos de este famoso género de videojuego.</p><p><a href='//multimedia.lacaixa.es/lacaixa/ondemand/portal/infantilsuperhucha/libreta-estrella-super3/main.html#/juega-y-aprende' target='_blank' class='external' rel='nofollow'>Jugar</a></p><br><ul><li>Cliente: Wunderman</li></ul>"
+		},
+		{
+			"T" : "Simplex Evolution",
+			"A" : "Juego de mesa digital",
+			"A2": "Juego de mesa digital en Flash",
+			"L" : "simplex",
+			"C" : "31",
+			"I" : "/img/portfolio/simplex.png",
+			"I2": "/img/portfolio/simplex_bg.png",
+			"t" : "game",
+			"F" : true,
+			"D" : "<p>Juego desarrollado en 48 horas con mótivo de la competición <a href='//www.ludumdare.com/compo/' target='_blank'>Ludum Dare</a> número 24, evento online que reúne a desarrolladores de videojuegos de todo el mundo con el fin de crear un juego en un fin de semana.</p><p><em>Simplex Evolution Tabulae Ludus</em> es un juego de estrategia original donde los jugadores han de alcanzar cierto nivel con una de sus fichas antes que sus oponentes.</p><p><a href='//www.ludumdare.com/compo/ludum-dare-24/?action=preview&uid=14867' target='_blank' class='external'>Reseña en el Ludum Dare 24</a></p><p><a href='/lab/game/ld24/evoludum.html' target='_blank' class='external'>Jugar</a></p>"
+		},
+		{
+			"T" : "Gallo Fuuu",
+			"A" : "Juego Flash",
+			"A2": "Juego Flash de naves espaciales",
+			"L" : "gallofu",
+			"C" : "30",
+			"I" : "/img/portfolio/gallofu.png",
+			"I2": "/img/portfolio/gallofu_bg.png",
+			"t" : "game",
+			"D" : "<p>Desarrollado en Adobe Flash y <a href='//es.wikipedia.org/wiki/ActionScript#Ventajas_de_ActionScript_3.0' target='_blank'>ActionScript 3</a>, este juego del estilo del clásico <a href='//www.arcade-history.com/?n=asteroids-upright-model&page=detail&id=126' target='_blank'>Asteroids</a> acompañó a la web promocional del producto homónimo.</p><p>Un solitario astronauta ha perdido su cargamento de estrellas, y tienes que ayudarle a recuperarlas mientras destruyes asteroides erráticos. ¡Intenta no chocarte con ellos!</p><p><a href='/demo/gallofu/' target='_blank' class='external' rel='nofollow'>Jugar</a></p>"
+		},
+		{
+			"T" : "Tibidabo Memory",
+			"A" : "Juego de memoria",
+			"A2": "Juego de memoria de encontrar parejas Flash",
+			"L" : "tibidabomemory",
+			"C" : "27",
+			"I" : "/img/portfolio/tibidabomemory.jpg",
+			"I2": "/img/portfolio/tibidabomemory_bg.jpg",
+			"t" : "game",
+			"D" : "<p>Pequeño juego programado en Adobe Flash para la web del parque de atracciones <a href='//es.wikipedia.org/wiki/Tibidabo#Parque_de_Atracciones_Tibidabo' target='_blank'>Tibidabo</a>, formando parte de una serie de juegos para el lanzamiento del nuevo sitio <a href='//www.tibidabo.cat/' target='_blank'>tibidabo.cat</a>.</p><p>El juego es configurable y personalizable a través de un archivo <a href='//www.w3.org/XML/' target='_blank'>XML</a> independiente a la aplicación, y cuenta con soporte para diferentes idiomas.</p><p><a href='//www.tibidabo.cat/es/jocs/memory' target='_blank' class='external' rel='nofollow'>tibidabo.cat/entreteniment/memory</a></p>"
+		},
+		{
+			"T" : "Star Orchestra",
+			"A" : "Blackberry Playbook",
+			"A2": "Juego AIR para Blackberry Playbook",
+			"L" : "starorchestra",
+			"C" : "21",
+			"I" : "/img/portfolio/starorchestra.jpg",
+			"I2": "/img/portfolio/starorchestra_bg.png",
+			"t" : "game",
+			"F" : true,
+			"D" : "<p>Juego desarrollado en Adobe Flash y <a href='//es.wikipedia.org/wiki/Adobe_Integrated_Runtime' target='_blank'>Adobe AIR</a> con motivo del lanzamiento de la tableta BlackBerry PlayBook en Estados Unidos. Formó parte del primer paquete de aplicaciones disponibles en la <span lang='en' title='Tienda de aplicaciones de BlackBerry'>BlackBerry App World</span>.</p><p>El concepto del juego y el diseño son originales: el usuario ha de memorizar una forma para luego recrearla uniendo estrellas con un haz de luz, sonando una nota musical con cada conexión. Para la programación se optó por Flash y AIR debido a que la tableta ofrece soporte nativo.</p><p>Disponible en castellano, catalán e inglés.</p><p><a href='//appworld.blackberry.com/webstore/content/37409/' target='_blank' class='external' rel='nofollow'>Ver en BlackBerry App World</a><p><a href='/lab/game/star-orchestra/' target='_blank' class='external'>Jugar</a></p></p>"
+		},
+		{
+			"T" : "Baoband",
+			"A" : "Juego Flash",
+			"A2": "Juego Flash promocional",
+			"L" : "baoband",
+			"C" : "22",
+			"I" : "/img/portfolio/baoband.jpg",
+			"I2": "/img/portfolio/baoband_bg.jpg",
+			"t" : "game",
+			"D" : "<p>Juego para promocionar el sitio de <a href='//www.baobabplanet.com/' target='_blank'>Baobab Planet</a> entre los más pequeños.</p><p>Con una mecánica de juego similar a <a href='//www.meristation.com/es/playstation-2/guitar-hero/analisis-juego/1519767' target='_blank'>Guitar Hero</a> o <a href='//es.wikipedia.org/wiki/Dance_Dance_Revolution' target='_blank'>Dance Dance Revolution</a>, los jugadores han de tocar música con cuatro instrumentos de la banda siguiendo la melodía de una canción.<br>Desarrollado en Adobe Flash y programado en <a href='//es.wikipedia.org/wiki/ActionScript#Ventajas_de_ActionScript_3.0' target='_blank'>ActionScript 3</a>, los gráficos 3D están <a href='//www.meristation.com/es/playstation-2/guitar-hero/analisis-juego/1519767' target='_blank'>pre-renderizados</a> y utilizados como secuencias de imágenes para mejor rendimiento del juego.</p><p><a href='/demo/baoband/' target='_blank' class='external' rel='nofollow'>Jugar</a></p>"
+		},
+		{
+			"T" : "Actimel Bacterias",
+			"A" : "Juego",
+			"A2": "Juego Flash para Windows",
+			"L" : "actimel",
+			"C" : "23",
+			"I" : "/img/portfolio/actimel.jpg",
+			"I2": "/img/portfolio/actimel_bg.jpg",
+			"t" : "game",
+			"D" : "<p>Juego de escritorio para PC Windows, desarrollado con Adobe Flash.<br>El jugador pilota una nave espacial con la que ha de esquivar los enemigos que aparecen por pantalla, moviéndola con las teclas de cursor del teclado o con un <a href='//es.wikipedia.org/wiki/Palanca_de_mando' target='_blank' lang='en'>joystick</a> o <a href='//es.wikipedia.org/wiki/Gamepad' target='_blank' lang='en'>gamepad</a>. Para comunicar la aplicación con el mando de juego y poder detectar las acciones del jugador, se utiliza la clase de ActionScript 3 <a href='//livedocs.adobe.com/flash/9.0_es/ActionScriptLangRefV3/flash/net/Socket.html' target='_blank' lang='en'>flash.net.Socket</a>.</p><p><a href='/demo/actimel/' target='_blank' class='external' rel='nofollow'>Jugar</a></p>"
+		}
+	],
+	
+	"tags": {
+		"html" : "Websites",
+		"flash": "Interactive Apps & Animation",
+		"game" : "Games"
 	}
-],
-"flash" : [
-	{
-		"T" : "Bodegas Torres 360º",
-		"A" : "Video 360º",
-		"A2": "Video inmersivo Flash 360",
-		"L" : "torres360",
-		"C" : "04",
-		"I" : "/img/portfolio/torres360.jpg",
-		"I2": "/img/portfolio/torres360_bg.jpg",
-		"t" : "html",
-		"D" : "<p>Desarrollo de un reproductor para vídeos inmersivos 360º, programado en ActionScript 3.</p><p><a href='//video360.torres.es' target='_blank' class='external' rel='nofollow'>video360.torres.es</a></p><br><ul><li>Cliente: Mister Fogg</li></ul>"
-	},
-	{
-		"T" : "Hablemos de drogas",
-		"A" : "Exposición virtual",
-		"A2": "Exposición virtual 3D en Flash",
-		"L" : "hdd",
-		"C" : "10",
-		"I" : "/img/portfolio/hdd.gif",
-		"I2": "/img/portfolio/hdd_bg.png",
-		"t" : "flash",
-		"D" : "<p>Aplicación web y de escritorio programada con Adobe Flash y Action Script 3.</p><p>Esta aplicación interactiva permite al usuario visitar la exposición <a href='//www.hablemosdedrogas.org/es/home' target='_blank'>“Hablemos de drogas”</a>, impulsada por la Obra Social “la Caixa”, donde puede conocer de primera mano el impacto que tiene el consumo de drogas sobre la población más joven.</p><p>En un entorno tridimensional desarrollado con <a href='//away3d.com/' target='_blank'>Away3D</a>, el usuario puede visitar las diez salas de la exposición y jugar con las piezas interactivas que existen en cada una de las salas.</p><p><a href='//www.hablemosdedrogas.org/exposicion' target='_blank' class='external' rel='nofollow'>www.hablemosdedrogas.org/exposicion/</a></p>"
-	},
-	{
-		"T" : "Mundo Espresso",
-		"A" : "Microsite",
-		"A2": "Microsite Flash y mapa interactivo",
-		"L" : "mundoespresso",
-		"C" : "17",
-		"I" : "/img/portfolio/mundoespresso.png",
-		"I2": "/img/portfolio/mundoespresso_bg.png",
-		"t" : "flash",
-		"D" : "<p>Mundo virtual y interactivo de Nescafé Dolce Gusto.</p><p>Programado y animado en Adobe Flash, el mapa del mundo tiene varios niveles de <span lang='en'>zoom</span>, teniendo tanto detalle el nivel máximo que una imagen a ese tamaño afectaría negativamente el rendimiento la aplicación. Para evitarlo, se dividió en secciones rectangulares la ilustración, generando una imagen <a href='//es.wikipedia.org/wiki/Portable_Network_Graphics' target='_blank'>PNG</a> de cada sección a diferentes resoluciones; así, el usuario descarga únicamente las imágenes necesarias según la zona que explora y el nivel de acercamiento.</p><p>Para mejorar la accesibilidad, los diferentes apartados son accesibles vía dirección URL gracias a la librería <a href='//www.asual.com/swfaddress/' target='_blank'>SWFAddress</a>.</p><p><a href='/demo/elmundoespresso/' target='_blank' class='external' rel='nofollow'>Visitar</a></p>"
-	},
-    {
-        "T" : "Andalucía La Comunidad",
-        "A" : "Animación Flash",
-        "A2": "Animación en Flash y montaje en Premiere",
-        "L" : "andalucia-comunidad",
-        "C" : "25",
-        "I" : "/img/portfolio/andalucia-comunidad.png",
-        "I2": "/img/portfolio/andalucia-comunidad_bg.png",
-        "t" : "flash",
-        "D" : "<p>Vídeo promocional para la web de <a href='//www.andalucia.org/' target='_blank'>Turismo de Andalucía</a> y su nueva comunidad / red social orientada a los usuarios y turistas.</p><p>La animación 2D fue enteramente relizada en Adobe Flash, los efectos de postproducción añadidos con Adobe After Effects, y el montaje final de la secuencia de vídeo coordinada con el audio en Adobe Premiere.</p><p><a href='//youtu.be/kA6jHlF4fMQ' target='_blank' class='external' rel='nofollow'>Ver vídeo</a></p>"
-    },
-    {
-        "T" : "Evaristo Benítez",
-        "A" : "Página oficial",
-        "A2": "Página oficial en Flash",
-        "L" : "evaristobenitez",
-        "C" : "24",
-        "I" : "/img/portfolio/evaristobenitez.jpg",
-        "I2": "/img/portfolio/evaristobenitez_bg.jpg",
-        "t" : "flash",
-        "D" : "<p>Página web desarrollada en Adobe Flash para el artista de <a href='//www.cornellaweb.cat' target='_blank'>Cornellà</a> Evaristo Benítez.</p><p>El sitio corresponde a la carrera creativa del artista, con interacciones con el usuario en cada una de las secciones, comenzando por la página de inicio donde una escultura en 3D (programada en <a href='//away3d.com/' target='_blank'>Away3D</a>) rota según la posición del cursor.</p><p><a href='//evaristobenitez.es/' target='_blank' class='external' rel='nofollow'>evaristobenitez.es</a></p>"
-    }
-],
-"game" : [
-	{
-		"T" : "DominoMath",
-		"A" : "Juego drag'n drop educativo",
-		"A2": "Juego drag'n drop educativo HTML5 con piezas de dominó",
-		"L" : "dominomath",
-		"C" : "32",
-		"I" : "/img/portfolio/dominomath.jpg",
-		"I2": "/img/portfolio/dominomath_bg.jpg",
-		"t" : "game",
-		"D" : "<p>Juego de navegador para ordenadores de escritorio y <em lang='en'>tablets</em>, desarrollado en <a href='//es.wikipedia.org/wiki/HTML5' target='_blank'>HTML5</a> y enteramente programado con JavaScript. La idea original del juego es del educador colombiano Javier González.</p><p>Características:</p><ul><li>Aplicación de una sola página (en inglés <em lang='en'>Single-page application</em> o <abbr title='Single-page application'>SPA</abbr>), utilizando la librería <a href='//requirejs.org' target='_blank'>require.js</a> para la carga de módulos.</li><li><a href='//mustache.github.io/' target='_blank'>mustache</a> para gestionar las plantillas.</li><li><a href='//ricostacruz.com/jquery.transit' target='_blank'>jQuery Transit</a> para animar vía CSS3.</li><li><a href='//es.wikipedia.org/wiki/Twitter_Bootstrap' target='_blank'>Twitter Bootstrap</a> como base de la estructura HTML y CSS de la aplicación.</li></ul><p><a href='//raohmaru.com/demo/dominomath/' target='_blank' class='external' rel='nofollow'>Jugar</a></p><br><ul><li>Cliente: Wikiduca</li></ul>"
-	},
-	{
-		"T" : "Money Crush",
-		"A" : "Conecta monedas y gana",
-		"A2": "Juego Flash de conectar monedas",
-		"L" : "moneycrush",
-		"C" : "20",
-		"I" : "/img/portfolio/moneycrush.jpg",
-		"I2": "/img/portfolio/moneycrush_bg.png",
-		"t" : "game",
-		"D" : "<p>Juego realizado en Adobe Flash <a href='//es.wikipedia.org/wiki/ActionScript#Ventajas_de_ActionScript_3.0' target='_blank'>ActionScript 3</a>, influenciado por el juego <a href='//es.wikipedia.org/wiki/Candy_Crush_Saga' target='_blank'>Candy Crush</a> y otros juegos del tipo <a href='//en.wikipedia.org/wiki/Tile-matching_video_game' target='_blank'><span lang='en' title='Conectar 3'>match-three</span></a>.</p><p>Toda la mecánica y el motor del juego se ha programado desde cero, como proceso de aprendizaje de los mecanismos de este famoso género de videojuego.</p><p><a href='//multimedia.lacaixa.es/lacaixa/ondemand/portal/infantilsuperhucha/libreta-estrella-super3/main.html#/juega-y-aprende' target='_blank' class='external' rel='nofollow'>Jugar</a></p><br><ul><li>Cliente: Wunderman</li></ul>"
-	},
-	{
-		"T" : "Simplex Evolution",
-		"A" : "Juego de mesa digital",
-		"A2": "Juego de mesa digital en Flash",
-		"L" : "simplex",
-		"C" : "31",
-		"I" : "/img/portfolio/simplex.png",
-		"I2": "/img/portfolio/simplex_bg.png",
-		"t" : "game",
-		"F" : true,
-		"D" : "<p>Juego desarrollado en 48 horas con mótivo de la competición <a href='//www.ludumdare.com/compo/' target='_blank'>Ludum Dare</a> número 24, evento online que reúne a desarrolladores de videojuegos de todo el mundo con el fin de crear un juego en un fin de semana.</p><p><em>Simplex Evolution Tabulae Ludus</em> es un juego de estrategia original donde los jugadores han de alcanzar cierto nivel con una de sus fichas antes que sus oponentes.</p><p><a href='//www.ludumdare.com/compo/ludum-dare-24/?action=preview&uid=14867' target='_blank' class='external'>Reseña en el Ludum Dare 24</a></p><p><a href='/lab/game/ld24/evoludum.html' target='_blank' class='external'>Jugar</a></p>"
-	},
-	{
-		"T" : "Gallo Fuuu",
-		"A" : "Juego Flash",
-		"A2": "Juego Flash de naves espaciales",
-		"L" : "gallofu",
-		"C" : "30",
-		"I" : "/img/portfolio/gallofu.png",
-		"I2": "/img/portfolio/gallofu_bg.png",
-		"t" : "game",
-		"D" : "<p>Desarrollado en Adobe Flash y <a href='//es.wikipedia.org/wiki/ActionScript#Ventajas_de_ActionScript_3.0' target='_blank'>ActionScript 3</a>, este juego del estilo del clásico <a href='//www.arcade-history.com/?n=asteroids-upright-model&page=detail&id=126' target='_blank'>Asteroids</a> acompañó a la web promocional del producto homónimo.</p><p>Un solitario astronauta ha perdido su cargamento de estrellas, y tienes que ayudarle a recuperarlas mientras destruyes asteroides erráticos. ¡Intenta no chocarte con ellos!</p><p><a href='/demo/gallofu/' target='_blank' class='external' rel='nofollow'>Jugar</a></p>"
-	},
-	{
-		"T" : "Tibidabo Memory",
-		"A" : "Juego de memoria",
-		"A2": "Juego de memoria de encontrar parejas Flash",
-		"L" : "tibidabomemory",
-		"C" : "27",
-		"I" : "/img/portfolio/tibidabomemory.jpg",
-		"I2": "/img/portfolio/tibidabomemory_bg.jpg",
-		"t" : "game",
-		"D" : "<p>Pequeño juego programado en Adobe Flash para la web del parque de atracciones <a href='//es.wikipedia.org/wiki/Tibidabo#Parque_de_Atracciones_Tibidabo' target='_blank'>Tibidabo</a>, formando parte de una serie de juegos para el lanzamiento del nuevo sitio <a href='//www.tibidabo.cat/' target='_blank'>tibidabo.cat</a>.</p><p>El juego es configurable y personalizable a través de un archivo <a href='//www.w3.org/XML/' target='_blank'>XML</a> independiente a la aplicación, y cuenta con soporte para diferentes idiomas.</p><p><a href='//www.tibidabo.cat/es/jocs/memory' target='_blank' class='external' rel='nofollow'>tibidabo.cat/entreteniment/memory</a></p>"
-	},
-	{
-		"T" : "Star Orchestra",
-		"A" : "Blackberry Playbook",
-		"A2": "Juego AIR para Blackberry Playbook",
-		"L" : "starorchestra",
-		"C" : "21",
-		"I" : "/img/portfolio/starorchestra.jpg",
-		"I2": "/img/portfolio/starorchestra_bg.png",
-		"t" : "game",
-		"F" : true,
-		"D" : "<p>Juego desarrollado en Adobe Flash y <a href='//es.wikipedia.org/wiki/Adobe_Integrated_Runtime' target='_blank'>Adobe AIR</a> con motivo del lanzamiento de la tableta BlackBerry PlayBook en Estados Unidos. Formó parte del primer paquete de aplicaciones disponibles en la <span lang='en' title='Tienda de aplicaciones de BlackBerry'>BlackBerry App World</span>.</p><p>El concepto del juego y el diseño son originales: el usuario ha de memorizar una forma para luego recrearla uniendo estrellas con un haz de luz, sonando una nota musical con cada conexión. Para la programación se optó por Flash y AIR debido a que la tableta ofrece soporte nativo.</p><p>Disponible en castellano, catalán e inglés.</p><p><a href='//appworld.blackberry.com/webstore/content/37409/' target='_blank' class='external' rel='nofollow'>Ver en BlackBerry App World</a><p><a href='/lab/game/star-orchestra/' target='_blank' class='external'>Jugar</a></p></p>"
-	},
-	{
-		"T" : "Baoband",
-		"A" : "Juego Flash",
-		"A2": "Juego Flash promocional",
-		"L" : "baoband",
-		"C" : "22",
-		"I" : "/img/portfolio/baoband.jpg",
-		"I2": "/img/portfolio/baoband_bg.jpg",
-		"t" : "game",
-		"D" : "<p>Juego para promocionar el sitio de <a href='//www.baobabplanet.com/' target='_blank'>Baobab Planet</a> entre los más pequeños.</p><p>Con una mecánica de juego similar a <a href='//www.meristation.com/es/playstation-2/guitar-hero/analisis-juego/1519767' target='_blank'>Guitar Hero</a> o <a href='//es.wikipedia.org/wiki/Dance_Dance_Revolution' target='_blank'>Dance Dance Revolution</a>, los jugadores han de tocar música con cuatro instrumentos de la banda siguiendo la melodía de una canción.<br>Desarrollado en Adobe Flash y programado en <a href='//es.wikipedia.org/wiki/ActionScript#Ventajas_de_ActionScript_3.0' target='_blank'>ActionScript 3</a>, los gráficos 3D están <a href='//www.meristation.com/es/playstation-2/guitar-hero/analisis-juego/1519767' target='_blank'>pre-renderizados</a> y utilizados como secuencias de imágenes para mejor rendimiento del juego.</p><p><a href='/demo/baoband/' target='_blank' class='external' rel='nofollow'>Jugar</a></p>"
-	},
-	{
-		"T" : "Actimel Bacterias",
-		"A" : "Juego",
-		"A2": "Juego Flash para Windows",
-		"L" : "actimel",
-		"C" : "23",
-		"I" : "/img/portfolio/actimel.jpg",
-		"I2": "/img/portfolio/actimel_bg.jpg",
-		"t" : "game",
-		"D" : "<p>Juego de escritorio para PC Windows, desarrollado con Adobe Flash.<br>El jugador pilota una nave espacial con la que ha de esquivar los enemigos que aparecen por pantalla, moviéndola con las teclas de cursor del teclado o con un <a href='//es.wikipedia.org/wiki/Palanca_de_mando' target='_blank' lang='en'>joystick</a> o <a href='//es.wikipedia.org/wiki/Gamepad' target='_blank' lang='en'>gamepad</a>. Para comunicar la aplicación con el mando de juego y poder detectar las acciones del jugador, se utiliza la clase de ActionScript 3 <a href='//livedocs.adobe.com/flash/9.0_es/ActionScriptLangRefV3/flash/net/Socket.html' target='_blank' lang='en'>flash.net.Socket</a>.</p><p><a href='/demo/actimel/' target='_blank' class='external' rel='nofollow'>Jugar</a></p>"
-	}
-]
-
 }

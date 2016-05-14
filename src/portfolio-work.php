@@ -42,7 +42,7 @@ else
 			<article>
 				<?php if( $w ) { ?>
 				<div id="tags">
-					<a href="/portfolio" rel="contents"><?php echo $w->t; ?></a>
+					<a href="/portfolio" rel="contents"><?php echo $w->tagName; ?></a>
 				</div>
 				<?php } ?>
 				
@@ -64,7 +64,7 @@ else
 				</div>
 				
 				<aside class="clearfix">
-					<h3>Otros trabajos</h3>
+					<h3>Otros proyectos</h3>
 					<?php echo $portfolio->BuildRandom(3, $w ? $w->L : ''); ?>
 				</aside>
 			</article>

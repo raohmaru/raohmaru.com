@@ -5,7 +5,7 @@ $portfolio = new Portfolio();
 ?>
 <?php include("inc/head.php"); ?>
 <title>Portafolio | raohmaru.com</title>
-<meta name="description" content="Proyectos desarrolladas por Raúl Parralejo: HTML, Flash, Juegos, animación, programación.">
+<meta name="description" content="Proyectos desarrolladas por Raúl Parralejo: websites, interactivos, juegos, animación, programación.">
 <meta name="keywords" content="trabajos,proyectos,web,html,flash,juego,aplicacion" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,11 +26,7 @@ $portfolio = new Portfolio();
 	<section id="main" role="main">		
 		<div id="content">
 			<article class="portfolio-cat">
-				<?php
-				echo $portfolio->Build("html", "HTML");
-				echo $portfolio->Build("flash", "Flash");
-				echo $portfolio->Build("game", "Game");
-				?>
+				<?php echo $portfolio->Build(); ?>
 			</article>
 		</div>
 	</section>
