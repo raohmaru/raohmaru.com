@@ -1,9 +1,10 @@
+(function(raoh){
 /**
- * Main aplication script.
+ * Main application script.
  * @author raohmaru
  * @version 1.0
  */
-var raoh =
+$.extend(raoh, 
 {
 	LANG : "es",
 	
@@ -16,7 +17,7 @@ var raoh =
 		var ua = navigator.userAgent;
 		
 		// Footer bottom fix for some browsers
-		if(!jQuery.browser.mobile) {
+		if(!raoh.isMobile) {
 			raoh.bg.init();
 		} else {
 			document.documentElement.className += " ismobile";
@@ -274,7 +275,7 @@ var raoh =
 				id = $a[0].id.split("-");
 			
 			// If mobile, redirect to view work page
-			if(jQuery.browser.mobile)
+			if(raoh.isMobile)
 			{
 				location = link;
 				return;
@@ -603,4 +604,5 @@ var raoh =
 			}
 		}
 	}
-}
+});
+})(window.raoh || (window.raoh = {}));
