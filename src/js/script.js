@@ -22,11 +22,6 @@ $.extend(raoh,
 		} else {
 			document.documentElement.className += " ismobile";
 		}
-
-		// if(!jQuery.browser.mobile)
-			// $(window).scroll(function(e){
-				// $(document.body).css('background-position', '0 -' + window.scrollY/5 + 'px');
-			// })
 	},
 	
 	home :

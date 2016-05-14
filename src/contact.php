@@ -46,38 +46,6 @@
 				<h2 class="contact-sym" title="Dónde">≈</h2>
 				<address><a href="http://osm.org/go/xUZ7g6CA-?m=" target="_blank" rel="external">Cornellà de Llobregat</a> (Barcelona)</address>
 			</article>
-			
-			
-			<!--<aside id=contact-aside>
-				<?php if(isset($_GET['ok'])) { ?>
-					
-					<h3><b>¡Enviado!</b><br><br>En breve recibirás una contestación.</h3>
-				
-				<?php } else { ?>
-				
-					<?php if(isset($_GET['error'])) { ?>
-						<p id=contact-error><strong>¡Uops! Ha fallado algo en el envío...</strong></p>
-					<?php } else { ?>					
-						<h3>También puedes contactar o enviar comentarios a través de este formulario.</h3>
-					<?php } ?>
-					
-					<form action="/contact-send" method=post enctype="application/x-www-form-urlencoded" id=contact-form>
-						<label for=username>Nombre</label><br>
-						<input type=text name=username id=username /><br>
-						<label for=email>E-mail</label><br>
-						<input type=text name=email id=email /><br>
-						<label for=comment>Comentario</label><br>
-						<textarea name=comment id=comment></textarea>
-						<p id=contact-send><input type=submit value=Enviar class=action-button /></p>
-					</form>
-					
-					<div id=contact-message>
-						<p></p>
-						<div><button type=button class=action-button>OK</button></div>
-					</div>
-					
-				<?php } ?>
-			</aside>-->
 		</div>
 	</section>
 	

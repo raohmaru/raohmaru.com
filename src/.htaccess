@@ -548,8 +548,6 @@ php_flag display_startup_errors off
   RewriteRule ^/?portfolio/([^/]+)/?$ /portfolio-work.php?w=$1 [NC,L]
   RewriteRule ^/?portfolio/$ /portfolio [R=301,NC,L]
   RewriteRule ^/?contact/?$ /contact.php [NC,L,QSA]
-  # RewriteRule ^/?contact-send/?$ /contact-send.php [NC,L]
-  RewriteRule ^/?contact\-send\.php/?$ "-" [F]  # Return a 403 Forbidden status code
   # Wiki
   RewriteRule ^/?rol/wiki/(.*)$ /rol/w/index.php?title=$1 [PT,L,QSA]
   RewriteRule ^/?rol/wiki/*$ /rol/w/index.php [L,QSA]
