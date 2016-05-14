@@ -31,9 +31,6 @@
 					<noscript><a href="&#x6d;&#00097;&#000105;&#108;&#x74;&#x6f;&#x3a;&#x72;&#00097;&#x75;&#000108;&#00064;&#x72;&#97;&#111;&#x68;&#109;&#x61;&#000114;&#000117;&#x2e;&#99;&#111;&#000109;" >&#x72;&#x61;&#x75;&#x6c;&#x40;&#000114;&#x61;&#x6f;&#000104;&#x6d;&#x61;&#114;&#000117;&#00046;&#00099;&#x6f;&#000109;</a></noscript>
 				</p>
 				
-				<h2 class="contact-sym" title="Teléfono">.<span style="font-size:23px">)</span>)</h2>
-				<p>+34 625 026 050</p>
-				
 				<h2 class="lc contact-sym" title="CV en LinkedIn">in</h2>
 				<p><a href="http://es.linkedin.com/in/raulpn" target="_blank" rel="me external">es.linkedin.com/in/raulpn</a></p>
 				
