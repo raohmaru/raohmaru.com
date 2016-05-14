@@ -226,12 +226,15 @@ only screen and (min-device-pixel-ratio: 1.5) and (max-width: 640px) {
 		margin-top: -157px;
 		padding-left: 220px;
 	}
-		 .home #menu LI {
-			width: 104px;
+		 .home #menu UL {
+			top: 15px;
 		}
-		 .home #menu A {
-			font-size: 18px;
-		}
+			 .home #menu LI {
+				width: 104px;
+			}
+			 .home #menu A {
+				font-size: 18px;
+			}
 	 #e404-logo {
 		width: 144px;
 		height: 166px;
@@ -244,14 +247,4 @@ only screen and (min-device-pixel-ratio: 1.5) and (max-width: 640px) {
 		 #e404-hello P {
 			font-size: 18px;
 		}
-}
-/* Landscape VGA phones */
-@media only screen and (max-height: 240px) {
-	 #home-logo {
-		margin-left: -110px !important;
-		margin-top: -90px !important;
-	}
-	 .home #menu {
-		padding-left: 170px;
-	}
 }
