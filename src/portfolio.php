@@ -7,20 +7,12 @@ $portfolio = new Portfolio();
 <title>Portafolio | raohmaru.com</title>
 <meta name="description" content="Proyectos desarrolladas por Raúl Parralejo: HTML, Flash, Juegos, animación, programación.">
 <meta name="keywords" content="trabajos,proyectos,web,html,flash,juego,aplicacion" />
-
-<!-- Mobile viewport optimized: h5bp.com/viewport -->
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="canonical" href="http://raohmaru.com/portfolio">
-
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="/css/style.css">
-
-<!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
-
-<!-- All JavaScript at the bottom, except this Modernizr build.
-   Modernizr enables HTML5 elements & feature detects for optimal performance.
-   Create your own custom Modernizr build: www.modernizr.com/download/ -->
-<script src="/js/libs/modernizr-2.5.3.min.js"></script>
+<script src="/js/vendor/modernizr-2.5.3.min.js"></script>
 </head>
 
 <body class="section portfolio">
@@ -46,16 +38,13 @@ $portfolio = new Portfolio();
 	<?php include("inc/footer.php"); ?>
 </div>
 
-
-<!-- JavaScript at the bottom for fast page loading -->
-
 <?php include("inc/js-vendor.php"); ?>
 
 <!-- scripts concatenated and minified via build script -->
 <script src="/js/plugins.js"></script>
 <script src="/js/script.js"></script>
 <!-- end scripts -->
-<script src="/js/modules/iscroll.js"></script>
+<script src="/js/libs/iscroll.js"></script>
 
 <script>
 $(document).ready(function() {

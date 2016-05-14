@@ -2,20 +2,12 @@
 <title>Acerca de | raohmaru.com</title>
 <meta name="description" content="Biografía y trayectoria profesional de Raúl Parralejo">
 <meta name="keywords" content="acerca,biografia,vida,profesional,programador,web,aplicaciones,juegos" />
-
-<!-- Mobile viewport optimized: h5bp.com/viewport -->
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="canonical" href="http://raohmaru.com/about">
-
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="/css/style.css">
-
-<!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
-
-<!-- All JavaScript at the bottom, except this Modernizr build.
-   Modernizr enables HTML5 elements & feature detects for optimal performance.
-   Create your own custom Modernizr build: www.modernizr.com/download/ -->
-<script src="/js/libs/modernizr-2.5.3.min.js"></script>
+<script src="/js/vendor/modernizr-2.5.3.min.js"></script>
 </head>
 
 <body class="section about">
@@ -84,9 +76,6 @@
 	
 	<?php include("inc/footer.php"); ?>
 </div>
-
-
-<!-- JavaScript at the bottom for fast page loading -->
 
 <?php include("inc/js-vendor.php"); ?>
 
