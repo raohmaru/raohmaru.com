@@ -12,7 +12,7 @@ $portfolio = new Portfolio();
 <link rel="canonical" href="http://raohmaru.com/portfolio">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="/css/style.css">
-<script src="/js/vendor/modernizr-3.3.1.min.js"></script>
+<script src="/js/libs/modernizr-3.3.1.min.js"></script>
 </head>
 
 <body class="section portfolio">
@@ -44,7 +44,7 @@ $portfolio = new Portfolio();
 <script src="/js/plugins.js"></script>
 <script src="/js/script.js"></script>
 <!-- end scripts -->
-<script src="/js/libs/iscroll.min.js"></script>
+<script src="/js/modules/iscroll.js"></script>
 
 <script>
 $(document).ready(function() {
