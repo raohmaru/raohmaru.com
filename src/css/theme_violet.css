@@ -49,17 +49,8 @@ ARTICLE A:hover {
 UL.default LI::before {
 	background-position: left -1px;
 }
-.about-cube H3 {
-	color: #223695;
-}
 .about {
 	color: #FFF;
-}
-.js .about-cube H3:hover {
-	color: #cc10d1;
-}
-.no-js #about-short {
-	background-color: #9AA2A7;
 }
 .js .scrollable > DIV > DIV {
 	background-color: rgba(0,0,0,0.2) !important;
@@ -92,26 +83,6 @@ UL.default LI::before {
 #contact #content, #contact #content a {
 	color: #FFF;
 }
-#contact-aside {
+#e404-hello P {
 	color: #fff;
-	background-color: rgba(0,0,0,0.4);
 }
-	P#contact-error {
-		background-color: #e39b20;
-	}
-		.action-button {
-			color: #fff;
-			background-color: #a403b6;
-		}
-	#contact-message {
-		background-color: rgba(60,115,169, 0.9);
-	}
-	#contact-message.error {
-		background-color: rgba(125,75,182, 0.9);
-	}
-		#contact-message .action-button {
-			background-color: #175A91;
-		}
-			#e404-hello P {
-				color: #fff;
-			}

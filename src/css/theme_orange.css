@@ -45,15 +45,6 @@ ARTICLE A:hover {
 	color: #af7616;
 	background-color: #fff;
 }
-.about-cube H3 {
-	color: #235D94;
-}
-.js .about-cube H3:hover {
-	color: #d7830a;
-}
-.no-js #about-short {
-	background-color: #9AA2A7;
-}
 .js .scrollable > DIV > DIV {
 	background-color: rgba(0,0,0,0.2) !important;
 }
@@ -79,26 +70,6 @@ ARTICLE A:hover {
 	#portfolio-work-descr {
 		background-color: #fff;
 	}
-#contact-aside {
-	color: #fff;
-	background-color: rgba(0,0,0,0.4);
+#e404-hello P {
+	color: #d7830a;
 }
-	P#contact-error {
-		background-color: #e39b20;
-	}
-		.action-button {
-			color: #fff;
-			background-color: #A22E06;
-		}
-	#contact-message {
-		background-color: rgba(60,115,169, 0.9);
-	}
-	#contact-message.error {
-		background-color: rgba(125,75,182, 0.9);
-	}
-		#contact-message .action-button {
-			background-color: #175A91;
-		}
-			#e404-hello P {
-				color: #d7830a;
-			}

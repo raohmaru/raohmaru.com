@@ -17,14 +17,6 @@ ARTICLE {
 ARTICLE A {
 	border-bottom: dotted 1px #000;
 }
-INPUT, BUTTON, TEXTAREA {
-	padding: 2px;
-	font: 15px 'Ubuntu', Verdana, Geneva, Arial, Helvetica, sans-serif;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAXCAYAAAD+4+QTAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAqtJREFUeNq8VU1oE0EU/mY2m25iqmkQG2KhUYsQGn8OelFRPHiQkoMgoiDqQZAcBEW0RfAQpHhRDx48eBFB/Ll4snj37lXwWgRBmyrVJM3P7vrNZpNsks1PQ3VgkpnJm/fN9973XoRt2/jXQ+I/DKE+rKX+RjUTp4TAlJ7BC25t2rfRl3Pdd7wRGsjk8zIimsQzzqdLOSR4FKBTuWnhojMxk8AdskhyaxxJIcfvkAskNgUk/xazwQBuNfbbtuDyh/s4yeXYRvIp+7HYGsYDLsOoqcQ4x9rRFht9WDY9Qf68w2nmYQ62gEhegdiTdXQSCeHApye46LLRRgbJvYI0gliERa9GHNj/HEg9YibGoXSVnsb89Qx20jQ4jAh8DebP4pIUOOgEwyozVGtAZZUA9ZjpAexYOIe7SgxKBI1SGBpk+QcmxnSyaBaJAlgBzCIB15vH8QlceLOAw4rNQJV2JjsRw21KNtEsVZOvr+YJoECs5ptpI0/sQ9YRxgA2skOy6YCGG+2ly1n+RqBfBGm/PBlFhgU6UNLSm2xK9rErz9ZQjsvfCbIKdPdSeTyN3LFZRFWqerFp9q5SBedDQbzusjBpFDtEsYZhr3z0fe+Xr1hMXcNDLgtuRdldvYtG44buFBm6QhWM1OU7QzFpQT822B1Hloqc7sVGgYjkJK4ykXv9+zTrzZiqT+Efdko6dvMM7jX6WieQ2kjzPfIEifp6UC8PhOrvqRX6VYRNde5S+uEsMVxm4weFKgvreMmcJIplGJUadNPqaBd2yZNBH/UIRx5rLhNVN+V6NlvXVBwZeGznjLm61zb456dAWEj4ycnKxW8yqXiZ2K4iim6OCoPaRI9RcX1U0SEP4TrWXZr6CCw8Ynceq0JVJRPLCyI8YGJEFg2J2G7obG+h/BVgAAEeucusXiToAAAAAElFTkSuQmCC);
-	background-position: right -30px;
-	background-repeat: no-repeat;
-	border: none;
-}
 ADDRESS {
 	font-style: normal;
 }
@@ -86,7 +78,6 @@ ADDRESS {
 	width: 100%;
 	font: bold 14px 'Ubuntu', Verdana, Geneva, Arial, Helvetica, sans-serif;
 	text-align: center;
-	/* CSS3 RGBA */
 }
 	#footer UL {
 		padding: 3px 0;
@@ -344,9 +335,6 @@ BODY.home {
 /***********************************************************************
  * SECTION: About
  */
-BODY.about {
-	
-}
 .about #content {
 	max-width: 800px;
 }
@@ -359,214 +347,122 @@ BODY.about {
 	.about ARTICLE P {
 		padding-bottom: 14px;
 	}
-#about-img {
-	text-align: center;
-}
-.about-cube {
-	position: absolute;
-	/* CSS3 transition */
-	-moz-transition: opacity 0.4s ease-in, top 0.4s ease-in, left 0.4s ease-in;
-	-webkit-transition: opacity 0.4s ease-in, top 0.4s ease-in, left 0.4s ease-in;
-	transition: opacity 0.4s ease-in, top 0.4s ease-in, left 0.4s ease-in;
-}
-.no-js .about-cube {
-	display: none;
-}
-	.about-cube H3, .about-cube H4 {
-		font-family: 'Play', sans-serif !important;
-		/* CSS3 transform */
-		-webkit-transform: skew(0,-26deg);
-		-moz-transform: skew(0,-26deg);
-		-ms-transform: skew(0,-26deg);
-		transform: skew(0,-26deg);
-	}
-	.about-cube H3 {
-		padding: 0 0 7px 74px;
-		font-size: 18px;
-	}
-	.about-cube H4 {
-		padding: 0 0 0 74px !important;
-		font-size: 14px !important;
-		line-height: 16px;
-		text-transform: inherit !important;
-	}
-	.js .about-cube H3 {
-		cursor: pointer;
-		/* CSS3 transition */
-		-moz-transition: color 0.3s;
-		-webkit-transition: color 0.3s;
-		transition: color 0.3s;
-	}
-#about-short-title {
-	top: 95px;
-	left: 138px;
-	width: 201px;
-	height: 190px;
-	background: url(/img/about-cubes.png) no-repeat;
-}
-	#about-short-title H3 {
-		padding-top: 95px;
-	}
-	/* No CSS3 transforms support */
-	.no-csstransforms .about-cube {
-		text-align: center;
-	}
-	.no-csstransforms #about-short-title H3 {
-		padding: 64px 0 0 10px;
-	}
-	.no-csstransforms #about-short-title H4 {
-		padding-left: 10px !important;
-	}
-#about-long-title {
-	top: 154px;
-	left: 310px;
-	width: 258px;
-	height: 218px;
-	background: url(/img/about-cubes.png) no-repeat -200px top;
-}
-	#about-long-title H3 {
-		padding-top: 108px;
-	}
-	/* No CSS3 transforms support */
-	.no-csstransforms #about-long-title H3 {
-		padding: 80px 0 0 20px;
-	}
-	.no-csstransforms #about-long-title H4 {
-		padding-left: 20px !important;
-	}
-.js .about ARTICLE > DIV {
-	/* display: none;
-	opacity: 0; */
-	/* CSS3 transition */
-	-moz-transition: opacity 0.4s;
-	-webkit-transition: opacity 0.4s;
-	transition: opacity 0.4s;
-}
-.no-js #about-short {
-	margin-bottom: 30px;
-	padding: 14px 14px 0 14px;
-	border: dotted 2px #FFF;
-}
-
+	
 /***********************************************************************
  * SECTION: Portfolio
  */
-BODY.portfolio {
+.portfolio-header {
+	padding-top: 18px !important;
 }
-.portfolio-cat {	
+.portfolio .scrollable {
+	padding-top: 18px;
 }
-	.portfolio-header {
-		padding-top: 18px !important;
+.js .portfolio .scrollable {
+	position: relative;
+	overflow: hidden;
+	height: 111px;
+}
+.js .portfolio-cat UL {
+	white-space: nowrap;
+}
+	.portfolio-cat LI {
+		display: inline-block;
+		padding: 0 15px 15px 0;
+		list-style-type: none;
 	}
-	.portfolio .scrollable {
-		padding-top: 18px;
-	}
-	.js .portfolio .scrollable {
-		position: relative;
-		overflow: hidden;
-		height: 111px;
-	}
-	.js .portfolio-cat UL {
-		white-space: nowrap;
-	}
-		.portfolio-cat LI {
-			display: inline-block;
-			padding: 0 15px 15px 0;
-			list-style-type: none;
+		.work {
+			display: block;
+			width: 87px;
+			height: 99px;
+			text-indent: -999em;
+			background-image: url(/img/portfolio-works-v15.png);
+			background-repeat: no-repeat;
+			border-bottom: none;
+			outline-style: none;
+			-moz-outline-style: none;
 		}
-			.work {
+			.work SPAN {
 				display: block;
-				width: 87px;
-				height: 99px;
-				text-indent: -999em;
+				visibility: hidden;
+				width: 100%;
+				height: 100%;
 				background-image: url(/img/portfolio-works-v15.png);
-				background-repeat: no-repeat;
-				border-bottom: none;
-				outline-style: none;
-				-moz-outline-style: none;
 			}
-				.work SPAN {
-					display: block;
-					visibility: hidden;
-					width: 100%;
-					height: 100%;
-					background-image: url(/img/portfolio-works-v15.png);
-				}
-				.work SPAN.active {
-					visibility: visible;
-				}
-			/* HTML */
-			.pf-01 { background-position: -87px 0; }
-			.pf-02 { background-position: -174px 0; }
-			.pf-03 { background-position: -261px 0; }
-			.pf-04 { background-position: -348px 0; }
-			.pf-05 { background-position: -435px 0; }
-			.pf-06 { background-position: -522px 0; }
-			.pf-07 { background-position: -609px 0; }
-			.pf-08 { background-position: -696px 0; }
-			.pf-09 { background-position: -783px 0; }
-			.pf-0a { background-position: -870px 0; }
-			.pf-0b { background-position: -957px 0; }
-			.pf-0c { background-position: -1044px 0; }
-			.pf-0d { background-position: -1131px 0; }
-			.pf-0e { background-position: -1218px 0; }
-			.pf-0f { background-position: -1305px 0; }
-			/* Flash */
-			.pf-10 { background-position: 0px -99px; }
-			.pf-11 { background-position: -87px -99px; }
-			.pf-12 { background-position: -174px -99px; }
-			.pf-13 { background-position: -261px -99px; }
-			.pf-14 { background-position: -348px -99px; }
-			.pf-15 { background-position: -435px -99px; }
-			.pf-16 { background-position: -522px -99px; }
-			.pf-17 { background-position: -609px -99px; }
-			.pf-18 { background-position: -696px -99px; }
-			.pf-19 { background-position: -783px -99px; }
-			.pf-1a { background-position: -870px -99px; }
-			.pf-1b { background-position: -957px -99px; }
-			.pf-1c { background-position: -1044px -99px; }
-			.pf-1d { background-position: -1131px -99px; }
-			.pf-1e { background-position: -1218px -99px; }
-			.pf-1f { background-position: -1305px -99px; }
-			/* Game */
-			.pf-20 { background-position: 0px -198px; }
-			.pf-21 { background-position: -87px -198px; }
-			.pf-22 { background-position: -174px -198px; }
-			.pf-23 { background-position: -261px -198px; }
-			.pf-24 { background-position: -348px -198px; }
-			.pf-25 { background-position: -435px -198px; }
-			.pf-26 { background-position: -522px -198px; }
-			.pf-27 { background-position: -609px -198px; }
-			.pf-28 { background-position: -696px -198px; }
-			.pf-29 { background-position: -783px -198px; }
-			.pf-2a { background-position: -870px -198px; }
-			.pf-2b { background-position: -957px -198px; }
-			.pf-2c { background-position: -1044px -198px; }
-			.pf-2d { background-position: -1131px -198px; }
-			.pf-2e { background-position: -1218px -198px; }
-			.pf-2f { background-position: -1305px -198px; }
-			/* Other */
-			.pf-30 { background-position: 0px -297px; }
-			.pf-31 { background-position: -87px -297px; }
-			.pf-32 { background-position: -174px -297px; }
-			.pf-33 { background-position: -261px -297px; }
-			.pf-34 { background-position: -348px -297px; }
-			.pf-35 { background-position: -435px -297px; }
-			.pf-36 { background-position: -522px -297px; }
-			.pf-37 { background-position: -609px -297px; }
-			.pf-38 { background-position: -696px -297px; }
-			.pf-39 { background-position: -783px -297px; }
-			.pf-3a { background-position: -870px -297px; }
-			.pf-3b { background-position: -957px -297px; }
-			.pf-3c { background-position: -1044px -297px; }
-			.pf-3d { background-position: -1131px -297px; }
-			.pf-3e { background-position: -1218px -297px; }
-			.pf-3f { background-position: -1305px -297px; }
-	
-	/* iScroll scrollbars */
-	.js .scrollable > DIV > DIV {
-		border: none !important;
-	}
+			.work SPAN.active {
+				visibility: visible;
+			}
+		/* HTML */
+		.pf-01 { background-position: -87px 0; }
+		.pf-02 { background-position: -174px 0; }
+		.pf-03 { background-position: -261px 0; }
+		.pf-04 { background-position: -348px 0; }
+		.pf-05 { background-position: -435px 0; }
+		.pf-06 { background-position: -522px 0; }
+		.pf-07 { background-position: -609px 0; }
+		.pf-08 { background-position: -696px 0; }
+		.pf-09 { background-position: -783px 0; }
+		.pf-0a { background-position: -870px 0; }
+		.pf-0b { background-position: -957px 0; }
+		.pf-0c { background-position: -1044px 0; }
+		.pf-0d { background-position: -1131px 0; }
+		.pf-0e { background-position: -1218px 0; }
+		.pf-0f { background-position: -1305px 0; }
+		/* Flash */
+		.pf-10 { background-position: 0px -99px; }
+		.pf-11 { background-position: -87px -99px; }
+		.pf-12 { background-position: -174px -99px; }
+		.pf-13 { background-position: -261px -99px; }
+		.pf-14 { background-position: -348px -99px; }
+		.pf-15 { background-position: -435px -99px; }
+		.pf-16 { background-position: -522px -99px; }
+		.pf-17 { background-position: -609px -99px; }
+		.pf-18 { background-position: -696px -99px; }
+		.pf-19 { background-position: -783px -99px; }
+		.pf-1a { background-position: -870px -99px; }
+		.pf-1b { background-position: -957px -99px; }
+		.pf-1c { background-position: -1044px -99px; }
+		.pf-1d { background-position: -1131px -99px; }
+		.pf-1e { background-position: -1218px -99px; }
+		.pf-1f { background-position: -1305px -99px; }
+		/* Game */
+		.pf-20 { background-position: 0px -198px; }
+		.pf-21 { background-position: -87px -198px; }
+		.pf-22 { background-position: -174px -198px; }
+		.pf-23 { background-position: -261px -198px; }
+		.pf-24 { background-position: -348px -198px; }
+		.pf-25 { background-position: -435px -198px; }
+		.pf-26 { background-position: -522px -198px; }
+		.pf-27 { background-position: -609px -198px; }
+		.pf-28 { background-position: -696px -198px; }
+		.pf-29 { background-position: -783px -198px; }
+		.pf-2a { background-position: -870px -198px; }
+		.pf-2b { background-position: -957px -198px; }
+		.pf-2c { background-position: -1044px -198px; }
+		.pf-2d { background-position: -1131px -198px; }
+		.pf-2e { background-position: -1218px -198px; }
+		.pf-2f { background-position: -1305px -198px; }
+		/* Other */
+		.pf-30 { background-position: 0px -297px; }
+		.pf-31 { background-position: -87px -297px; }
+		.pf-32 { background-position: -174px -297px; }
+		.pf-33 { background-position: -261px -297px; }
+		.pf-34 { background-position: -348px -297px; }
+		.pf-35 { background-position: -435px -297px; }
+		.pf-36 { background-position: -522px -297px; }
+		.pf-37 { background-position: -609px -297px; }
+		.pf-38 { background-position: -696px -297px; }
+		.pf-39 { background-position: -783px -297px; }
+		.pf-3a { background-position: -870px -297px; }
+		.pf-3b { background-position: -957px -297px; }
+		.pf-3c { background-position: -1044px -297px; }
+		.pf-3d { background-position: -1131px -297px; }
+		.pf-3e { background-position: -1218px -297px; }
+		.pf-3f { background-position: -1305px -297px; }
+
+/* iScroll scrollbars */
+.js .scrollable > DIV > DIV {
+	border: none !important;
+}
 #portfolio-details {
 	position: absolute;
 	z-index: 9999;
@@ -591,24 +487,22 @@ BODY.portfolio {
 		margin-left: -10px;
 		border: solid 10px transparent;
 	}
-	#portfolio-details H3 {
+	#portfolio-details H3 A {
+		cursor: pointer;
+		/* CSS3 transition */
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
 	}
-		#portfolio-details H3 A {
-			cursor: pointer;
-			/* CSS3 transition */
-			-moz-transition: all 0.3s;
-			-webkit-transition: all 0.3s;
-			transition: all 0.3s;
-		}
-		#portfolio-details-close {
-			display: none;
-			float: right;
-			margin: -8px -10px 0 0;
-			cursor: pointer;
-		}
-		#portfolio-details-abstract {
-			font-weight: normal;
-		}
+	#portfolio-details-close {
+		display: none;
+		float: right;
+		margin: -8px -10px 0 0;
+		cursor: pointer;
+	}
+	#portfolio-details-abstract {
+		font-weight: normal;
+	}
 	#portfolio-details H4 {
 		line-height: 1em;
 	}
@@ -672,31 +566,29 @@ BODY.portfolio {
 /***********************************************************************
  * SECTION: Portfolio Work
  */
-BODY.portfolio-work {
+.portfolio-work HGROUP H3 {
+	font-size: 15px;
 }
-	.portfolio-work HGROUP H3 {
-		font-size: 15px;
+#portfolio-work-descr {
+	max-width: 1000px;
+	margin-top: 30px;
+	padding: 14px 16px;
+}
+#portfolio-work-img {
+	float: right;
+	margin-left: 10px;
+}
+.portfolio-work ASIDE {
+	padding-top: 20px;
+}
+	.portfolio-work ASIDE H3 {
+		padding-bottom: 10px;
+		font-size: 16px;
 	}
-	#portfolio-work-descr {
-		max-width: 1000px;
-		margin-top: 30px;
-		padding: 14px 16px;
+	.portfolio-work ASIDE A {
+		float: left;
+		margin-right: 10px;
 	}
-	#portfolio-work-img {
-		float: right;
-		margin-left: 10px;
-	}
-	.portfolio-work ASIDE {
-		padding-top: 20px;
-	}
-		.portfolio-work ASIDE H3 {
-			padding-bottom: 10px;
-			font-size: 16px;
-		}
-		.portfolio-work ASIDE A {
-			float: left;
-			margin-right: 10px;
-		}
 
 /***********************************************************************
  * SECTION: Contact
@@ -708,96 +600,6 @@ BODY.portfolio-work {
 .contact-sym + p, .contact-sym + address {
 	font-size: 1.3em;
 }
-#contact-aside {
-	position: absolute;
-	top: 47px;
-	left: 45%;
-	overflow: hidden;
-	width: 306px;
-	margin-bottom: 44px;
-	padding: 22px 26px;
-	font: 16px/1.4em 'Ubuntu', Verdana, Geneva, Arial, Helvetica, sans-serif;
-	border-radius: 12px;
-}
-	#contact-aside H3 {
-		padding-bottom: 12px;
-		font-size: inherit;
-		font-weight: normal;
-	}
-	P#contact-error {
-		margin-bottom: 12px;
-		padding: 5px;
-		text-align: center;
-		border-radius: 12px;
-	}
-	#contact-aside LABEL {
-		font-weight: bold;
-	}
-	#contact-aside INPUT[type=text] {
-		width: 100%;
-		margin-bottom: 5px;
-		border-radius: 6px;
-		/* CSS3 transition */
-		-moz-transition: all 0.3s;
-		-webkit-transition: all 0.3s;
-		transition: all 0.3s;
-	}
-	#contact-aside TEXTAREA {
-		width: 100%;
-		height: 112px;
-		border-radius: 6px;
-		/* CSS3 transition */
-		-moz-transition: all 0.3s;
-		-webkit-transition: all 0.3s;
-		transition: all 0.3s;
-	}
-	#contact-aside INPUT[type=text]:focus, #contact-aside TEXTAREA:focus {
-		box-shadow: 0 0 7px -1px #000;
-	}
-	#contact-send {
-		height: 27px;
-		padding-top: 14px;
-		text-align: right;
-	}
-		.action-button {
-			padding: 3px 18px;
-			font-size: 14px;
-			font-weight: bold;
-			border-radius: 6px;
-			border-bottom: solid 2px #0a243d;
-			border-right: solid 1px #0a243d;
-			/* CSS3 transition */
-			-moz-transition: border 0.2s;
-			-webkit-transition: border 0.2s;
-			transition: border 0.2s;
-		}
-		.action-button:active {
-			border-top: solid 2px #0a243d;
-			border-left: solid 1px #0a243d;
-			border-bottom: none;
-			border-right: none;
-		}
-	#contact-message {
-		position: absolute;
-		top: 0;
-		left: -100%;
-		width: 100%;
-		height: 100%;
-		border-radius: 12px;
-		/* CSS3 transition */
-		-moz-transition: all 0.5s;
-		-webkit-transition: all 0.5s;
-		transition: all 0.5s;
-	}
-		#contact-message P {
-			height: 120px;
-			padding: 120px 22px 0 22px;
-			font-weight: bold;
-			text-align: center;
-		}
-		#contact-message DIV {
-			text-align: center;
-		}
 
 /***********************************************************************
  * SECTION: 404

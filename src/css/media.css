@@ -2,10 +2,6 @@
  * MEDIA QUERIES for Responsive Design
  */
 
-/* Big landscape tablets, laptops, and desktops */
-@media only screen and (max-width: 992px) {
-}
-
 /* Landscape tablets, large mobiles */
 @media only screen and (max-width: 768px) {
 	#portfolio-work-img {
@@ -13,11 +9,6 @@
 		width: 100%;
 		margin-left: 0;
 		margin-bottom: 10px;
-	}
-	#contact-aside {
-		position: relative;
-		left: auto;
-		width: 82%;
 	}
 }
 
@@ -110,35 +101,6 @@ only screen and (min-device-pixel-ratio: 1.5) and (max-width: 960px) {
 	#tags {
 		float: right;
 	}
-	#about-img {
-		display: none;
-	}
-	#about-short-title {
-		top: 55px;
-		left: 78px;
-		width: 157px;
-		height: 168px;
-		background-position: left -218px;
-	}
-		#about-short-title H3 {
-			padding: 56px 0 7px 30px;
-		}
-		#about-short-title H4 {
-			padding-left: 30px !important;
-		}
-	#about-long-title {
-		top: 94px;
-		left: 200px;
-		width: 212px;
-		height: 196px;
-		background-position: -200px -218px;
-	}
-		#about-long-title H3 {
-			padding: 73px 0 7px 33px;
-		}
-		#about-long-title H4 {
-			padding-left: 33px !important;
-		}
 	.portfolio #content {
 		padding-right: 0;
 	}
@@ -159,10 +121,6 @@ only screen and (min-device-pixel-ratio: 1.5) and (max-width: 960px) {
 	}
 	#portfolio-work-descr {
 		margin-top: 15px;
-	}
-	#contact-aside {
-		padding: 12px 16px;
-		font-size: 14px;
 	}
 }
 
@@ -201,14 +159,6 @@ only screen and (min-device-pixel-ratio: 1.5) and (max-width: 640px) {
 			padding-top: 10px;
 			font-size: 23px;
 		}
-	#about-short-title {
-		top: 110px;
-		left: 10px;
-	}
-	#about-long-title {
-		top: 190px;
-		left: 70px;
-	}
 	#portfolio-details.expand {
 		left: 0;
 		right: 0;
@@ -304,12 +254,4 @@ only screen and (min-device-pixel-ratio: 1.5) and (max-width: 640px) {
 	 .home #menu {
 		padding-left: 170px;
 	}
-}
-
-/* Apple retina display 960x640 */
-/* -o-min-device-pixel-ratio: 3/2 breaks the CSS compressor */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-	
 }

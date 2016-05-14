@@ -14,8 +14,6 @@ $.extend(raoh,
 	 */
 	init : function()
 	{
-		var ua = navigator.userAgent;
-		
 		// Footer bottom fix for some browsers
 		if(!raoh.isMobile) {
 			raoh.bg.init();
