@@ -486,7 +486,7 @@ $.extend(raoh,
 				cnv_width,
 				cnv_height,
 				ctx;
-			var FILL_COLOR  = "rgba(254, 248, 231, .1)",
+			var FILL_COLOR  = "rgba(254, 248, 231, .3)",
 				SHAPE_COLOR = "#eec159";
 				
 
@@ -532,7 +532,8 @@ $.extend(raoh,
 			function draw() {
 				// ctx.clearRect(0, 0, cnv_width, cnv_height);
 				ctx.fillStyle = FILL_COLOR;  // #eee
-				ctx.fillRect(0, 0, cnv_width, cnv_height);	
+				ctx.fillRect(0, 0, cnv_width, cnv_height);
+				ctx.drawImage(canvas, 2, -2);
 				// window.requestAnimationFrame(draw);
 			}
 		}
