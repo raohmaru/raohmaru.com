@@ -246,29 +246,17 @@ BODY.home {
 		.js .menu-anim-start {
 			opacity: 0;
 		}
-		.menu-about-anim {
+		.menu-item-anim {
 			/* CSS3 animation */
-			-webkit-animation: menu-show 0.5s ease-out;
-			-moz-animation: menu-show 0.5s ease-out;
-			animation: menu-show 0.5s ease-out;
+			-webkit-animation: menu-show 0.4s ease-out;
+			   -moz-animation: menu-show 0.4s ease-out;
+					animation: menu-show 0.4s ease-out;
 		}
 		.menu-about-anim-end, .no-js #menu-about {
 			top: 0;
 		}
-		.menu-portfolio-anim {
-			/* CSS3 animation */
-			-webkit-animation: menu-show 0.6s ease-out;
-			-moz-animation: menu-show 0.6s ease-out;
-			animation: menu-show 0.6s ease-out;
-		}
 		.menu-portfolio-anim-end, .no-js #menu-portfolio {
 			top: 40px;
-		}
-		.menu-contact-anim {
-			/* CSS3 animation */
-			-webkit-animation: menu-show 0.7s ease-out;
-			-moz-animation: menu-show 0.7s ease-out;
-			animation: menu-show 0.7s ease-out;
 		}
 		.menu-contact-anim-end, .no-js #menu-contact {
 			top: 80px;

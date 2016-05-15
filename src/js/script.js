@@ -35,7 +35,7 @@ $.extend(raoh,
 				$("#home-logo").css({opacity:0.0, visibility:"visible"}).animate({opacity: 1.0}, 2000);
 				
 			// Menu animation
-			var top = [0, 30, 60],
+			var top = [0, 40, 80],
 				d;
 			$("#menu LI").each(function(idx)
 			{
@@ -47,7 +47,7 @@ $.extend(raoh,
 					{
 						// Trick to start the CSS3 animations with delay and set final animation state
 						$(this).removeClass('menu-anim-start');
-						$(this).addClass(this.id+'-anim '+this.id+'-anim-end');
+						$(this).addClass('menu-item-anim '+this.id+'-anim-end');
 					});
 				}
 				// No CSS3 animations support
