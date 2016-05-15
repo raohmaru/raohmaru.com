@@ -32,7 +32,6 @@ $.fn.hasEvent = function(C) {
     // Method / object references.
     doc = document,
     fake_onhashchange,
-    special = $.event.special,
     
     // Does the browser support window.onhashchange? Note that IE8 running in
     // IE7 compatibility mode reports true for 'onhashchange' in window, even
@@ -60,32 +59,6 @@ $.fn.hasEvent = function(C) {
   $.fn[ str_hashchange ].domain = null;
   $.fn[ str_hashchange ].src = null;
   */
- 
-  // Override existing $.event.special.hashchange methods (allowing this plugin
-  // to be defined after jQuery BBQ in BBQ's source code).
-  special[ str_hashchange ] = $.extend( special[ str_hashchange ], {
-    
-    // Called only when the first 'hashchange' event is bound to window.
-    setup: function() {
-      // If window.onhashchange is supported natively, there's nothing to do..
-      if ( supports_onhashchange ) { return false; }
-      
-      // Otherwise, we need to create our own. And we don't want to call this
-      // until the user binds to the event, just in case they never do, since it
-      // will create a polling loop and possibly even a hidden Iframe.
-      $( fake_onhashchange.start );
-    },
-    
-    // Called only when the last 'hashchange' event is unbound from window.
-    teardown: function() {
-      // If window.onhashchange is supported natively, there's nothing to do..
-      if ( supports_onhashchange ) { return false; }
-      
-      // Otherwise, we need to stop ours (if possible).
-      $( fake_onhashchange.stop );
-    }
-    
-  });
   
   // fake_onhashchange does all the work of triggering the window.onhashchange
   // event for browsers that don't natively support it, including creating a
