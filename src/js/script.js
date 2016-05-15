@@ -487,8 +487,8 @@ $.extend(raoh,
 				cnv_height,
 				ctx;
 			var FILL_COLOR  = "rgba(254, 248, 231, .3)",
-				SHAPE_COLOR = "#eec159";
-				
+				SHAPE_COLOR = "#f4d997",
+				PI2 = Math.PI*2;				
 
 			if(canvas && canvas.getContext){
 				ctx = canvas.getContext('2d');
@@ -498,7 +498,7 @@ $.extend(raoh,
 			}
 
 			function start() {
-				// draw();
+				draw();
 				window.addEventListener('mousemove', raoh.tools.throttle(mousemoveListener, 50));
 				window.addEventListener('resize', resizeCanvas, false);
 				resizeCanvas();
@@ -510,7 +510,7 @@ $.extend(raoh,
 			}
 
 			function mousemoveListener(e) {
-				draw();
+				// draw();
 				drawPixels(e.clientX, e.clientY);
 			}
 
@@ -519,22 +519,22 @@ $.extend(raoh,
 				x += raoh.tools.randomInt(-15, 15);
 				y += raoh.tools.randomInt(-15, 15);
 				
-				if(raoh.tools.randomInt()) {
+				// if(raoh.tools.randomInt()) {
 					ctx.fillStyle = SHAPE_COLOR;
-					ctx.fillRect(x, y, sz, sz);		
-				} else {
-					ctx.strokeStyle = SHAPE_COLOR;
-					ctx.lineWidth = raoh.tools.randomInt(1, 4);
-					ctx.strokeRect(x, y, sz, sz);
-				}
+					ctx.fillRect(x, y, sz, sz);
+				// } else {
+					// ctx.strokeStyle = SHAPE_COLOR;
+					// ctx.lineWidth = raoh.tools.randomInt(1, 4);
+					// ctx.strokeRect(x, y, sz, sz);
+				// }
 			}
 
 			function draw() {
 				// ctx.clearRect(0, 0, cnv_width, cnv_height);
-				ctx.fillStyle = FILL_COLOR;  // #eee
-				ctx.fillRect(0, 0, cnv_width, cnv_height);
-				ctx.drawImage(canvas, 2, -2);
-				// window.requestAnimationFrame(draw);
+				// ctx.fillStyle = FILL_COLOR;  // #eee
+				// ctx.fillRect(0, 0, cnv_width, cnv_height);
+				ctx.drawImage(canvas, 2, -1);
+				window.requestAnimationFrame(draw);
 			}
 		}
 	}
