@@ -379,68 +379,6 @@ $.extend(raoh,
 		}
 	},
 	
-	contact :
-	{
-		loading : false,
-		init : function()
-		{
-			$("#contact-form").submit(function()
-			{				
-				if( !raoh.contact.loading && raoh.form.validate(this) )
-				{
-					raoh.contact.loading = true;
-					$("#contact-send INPUT").hide();
-					$("#contact-send").append('<img src="/img/about-loading.gif">');
-					
-					var values = { ajax:true };
-					$.each($(this).serializeArray(), function(i, field) {
-						values[field.name] = field.value;
-					});
-					
-					$.ajax({
-						url: "/contact-send",
-						type: "POST",
-						data: values,
-						complete: function(jqXHR, textStatus)
-						{
-							if(textStatus == "success")
-								raoh.contact.message(jqXHR.responseText);
-							else
-								raoh.contact.message("1000");
-							
-							$("#contact-send INPUT").show();
-							$("#contact-send IMG").remove();
-							raoh.contact.loading = false;
-						}
-					});
-				}
-				return false;
-			});
-			
-			$("#contact-message BUTTON").click(function() {
-				if(Modernizr.csstransitions)
-					$("#contact-message").css("left", "");
-				else
-					$("#contact-message").animate({left:"-100%"}, 500);
-			});
-		},
-		
-		message : function(error)
-		{
-			var msg = "¡Uops!<br><br>Ha fallado algo en el envío...<br>Inténtalo de nuevo en un rato";
-			if(error == "0000")
-				var msg = "¡Enviado!<br><br>En breve recibirás<br>una contestación";
-				
-			$("#contact-message P").html(msg);
-			$("#contact-message").attr("class", error != "0000" ? "error" : "");
-			
-			if(Modernizr.csstransitions)
-				$("#contact-message").css("left", "0");
-			else
-				$("#contact-message").animate({left:0}, 500);
-		}
-	},
-	
 	e404 :
 	{
 		/**
