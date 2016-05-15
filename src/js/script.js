@@ -486,7 +486,9 @@ $.extend(raoh,
 				cnv_width,
 				cnv_height,
 				ctx;
-			var FILL_COLOR = "rgb(100,100,100)";
+			var FILL_COLOR  = "rgba(254, 248, 231, .1)",
+				SHAPE_COLOR = "#eec159";
+				
 
 			if(canvas && canvas.getContext){
 				ctx = canvas.getContext('2d');
@@ -518,10 +520,10 @@ $.extend(raoh,
 				y += raoh.tools.randomInt(-15, 15);
 				
 				if(raoh.tools.randomInt()) {
-					ctx.fillStyle = FILL_COLOR;
+					ctx.fillStyle = SHAPE_COLOR;
 					ctx.fillRect(x, y, sz, sz);		
 				} else {
-					ctx.strokeStyle = FILL_COLOR;
+					ctx.strokeStyle = SHAPE_COLOR;
 					ctx.lineWidth = raoh.tools.randomInt(1, 4);
 					ctx.strokeRect(x, y, sz, sz);
 				}
@@ -529,7 +531,7 @@ $.extend(raoh,
 
 			function draw() {
 				// ctx.clearRect(0, 0, cnv_width, cnv_height);
-				ctx.fillStyle = "rgba(238,238,238,.1)";  // #eee
+				ctx.fillStyle = FILL_COLOR;  // #eee
 				ctx.fillRect(0, 0, cnv_width, cnv_height);	
 				// window.requestAnimationFrame(draw);
 			}
