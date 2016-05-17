@@ -491,14 +491,17 @@ $.extend(raoh,
 				drawPixels(e.clientX, e.clientY);
 			}
 
-			function drawPixels(x, y) {
-				var sz = raoh.tools.randomInt(1, 20);
-				x += raoh.tools.randomInt(-15, 15);
-				y += raoh.tools.randomInt(-15, 15);
+			function drawPixels(cx, cy) {
+				var sz = raoh.tools.randomInt(10, 40),
+					x = cx + raoh.tools.randomInt(-15, 15),
+					y = cy + raoh.tools.randomInt(-15, 15);
+				// Odd numbers only
+				if(x%2 === 1) x += 1;
+				if(y%2 === 1) y += 1;
 				
 				// if(raoh.tools.randomInt()) {
 					ctx.fillStyle = SHAPE_COLOR;
-					ctx.fillRect(x, y, sz, sz);
+					ctx.fillRect(x, y, sz, 1);
 				// } else {
 					// ctx.strokeStyle = SHAPE_COLOR;
 					// ctx.lineWidth = raoh.tools.randomInt(1, 4);
@@ -510,7 +513,7 @@ $.extend(raoh,
 				// ctx.clearRect(0, 0, cnv_width, cnv_height);
 				// ctx.fillStyle = FILL_COLOR;  // #eee
 				// ctx.fillRect(0, 0, cnv_width, cnv_height);
-				ctx.drawImage(canvas, 2, -1);
+				ctx.drawImage(canvas, 4, -2);
 				window.requestAnimationFrame(draw);
 			}
 		}
