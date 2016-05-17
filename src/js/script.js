@@ -1,4 +1,5 @@
-(function(raoh){
+(function(raoh){  "use strict";
+
 /**
  * Main application script.
  * @author raohmaru
