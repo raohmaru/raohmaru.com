@@ -20,6 +20,11 @@ $.extend(raoh,
 		} else {
 			document.documentElement.className += " ismobile";
 		}
+		
+		$('[data-raoh-init]').each(function() {
+			var ns = $(this).data('raoh-init');
+			raoh[ns] && raoh[ns].init();
+		});
 	},
 	
 	home :
@@ -539,4 +544,9 @@ $.extend(raoh,
 		}
 	}
 });
+
+$(document).ready(function() {
+	raoh.init();
+});
+
 })(window.raoh || (window.raoh = {}));

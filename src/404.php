@@ -8,7 +8,7 @@
 <script src="/js/libs/modernizr-3.3.1.min.js"></script>
 </head>
 
-<body class="section e404">
+<body class="section e404" data-raoh-init="e404">
 <?php include("inc/canvas.php"); ?>
 <div id="container">
 	<?php
@@ -31,13 +31,6 @@
 <script src="/js/plugins.js"></script>
 <script src="/js/script.js"></script>
 <!-- end scripts -->
-
-<script>
-$(document).ready(function() {
-	raoh.init();
-	raoh.e404.init();
-});
-</script>
 
 <?php include("inc/analytics.php"); ?>
 </body>

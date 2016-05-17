@@ -9,9 +9,9 @@
 <script src="/js/libs/modernizr-3.3.1.min.js"></script>
 </head>
 
-<body class="home">
+<body class="home" data-raoh-init="home">
 <?php include("inc/canvas.php"); ?>
-<div id="container">	
+<div id="container">
 	<section id="main" role="main">
 		<img src="/img/r.png" width="199" height="240" alt="Monograma de Raúl Parralejo" id="home-logo" />
 		<nav id="menu" role="navigation">
@@ -32,13 +32,6 @@
 <script src="/js/plugins.js"></script>
 <script src="/js/script.js"></script>
 <!-- end scripts -->
-
-<script>
-$(document).ready(function() {
-	raoh.init();
-	raoh.home.init();
-});
-</script>
 
 <?php include("inc/analytics.php"); ?>
 </body>

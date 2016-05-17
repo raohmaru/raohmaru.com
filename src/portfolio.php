@@ -15,7 +15,7 @@ $portfolio = new Portfolio();
 <script src="/js/libs/modernizr-3.3.1.min.js"></script>
 </head>
 
-<body class="section portfolio">
+<body class="section portfolio" data-raoh-init="portfolio">
 <?php include("inc/canvas.php"); ?>
 <div id="container">	
 	<?php
@@ -41,13 +41,6 @@ $portfolio = new Portfolio();
 <script src="/js/script.js"></script>
 <!-- end scripts -->
 <script src="/js/modules/iscroll.js"></script>
-
-<script>
-$(document).ready(function() {
-	raoh.init();
-	raoh.portfolio.init();
-});
-</script>
 
 <?php include("inc/analytics.php"); ?>
 </body>

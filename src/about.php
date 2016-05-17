@@ -49,12 +49,6 @@
 <script src="/js/script.js"></script>
 <!-- end scripts -->
 
-<script>
-$(document).ready(function() {
-	raoh.init();
-});
-</script>
-
 <?php include("inc/analytics.php"); ?>
 </body>
 </html>
