@@ -457,35 +457,6 @@ $.extend(raoh,
 		}
 	},
 	
-	form :
-	{
-		EMPTY : /^\s*$/,
-		EMAIL : /\w{1,}[@][\w\-]{1,}([.]([\w\-]{2,})){1,3}$/,
-		/**
-		 * Validates a form.
-		 * @method
-		 */
-		validate : function(form)
-		{
-			var fields = $(form).find("INPUT:text, TEXTAREA"),
-				error = false;
-			for(var i=0; i<fields.length; i++)
-			{
-				if( raoh.form.EMPTY.test(fields[i].value) )
-				{
-					$(fields[i]).addClass('error');
-					error = true;
-				}
-				else
-				{
-					$(fields[i]).removeClass('error');
-				}
-			};
-			
-			return !error;
-		}
-	},
-	
 	bg: {
 		init: function() {
 			var canvas = document.getElementById('bgcanvas'),
