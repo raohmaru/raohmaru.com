@@ -4,7 +4,7 @@
 <meta name="keywords" content="contacto,email,linkedin,twitter,blog" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="canonical" href="http://raohmaru.com/contact">
+<link rel="canonical" href="https://raohmaru.com/contact">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="/css/style.css">
 <script src="/js/libs/modernizr-3.3.1.min.js"></script>
@@ -38,7 +38,7 @@
 				<p><a href="http://twitter.com/raulparralejo" target="_blank" rel="external">twitter.com/raulparralejo</a></p>
 				
 				<h2 class="lc contact-sym" title="Twitter">b!</h2>
-				<p><a href="http://raohmaru.com/blog/">raohmaru.com/blog</a></p>
+				<p><a href="/blog/">raohmaru.com/blog</a></p>
 
 				<h2 class="contact-sym" title="Dónde">≈</h2>
 				<address><a href="http://osm.org/go/xUZ7g6CA-?m=" target="_blank" rel="external">Cornellà de Llobregat</a> (Barcelona)</address>

@@ -23,5 +23,5 @@ Allow: /
 User-agent: Googlebot-Image
 Disallow: /img/portfolio/
 
-Sitemap: http://raohmaru.com/sitemap.xml
-Sitemap: http://raohmaru.com/blog/sitemap.xml.gz
+Sitemap: https://raohmaru.com/sitemap.xml
+Sitemap: https://raohmaru.com/blog/sitemap.xml.gz

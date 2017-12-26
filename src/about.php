@@ -4,7 +4,7 @@
 <meta name="keywords" content="acerca,biografia,vida,profesional,programador,web,aplicaciones,juegos" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="canonical" href="http://raohmaru.com/about">
+<link rel="canonical" href="https://raohmaru.com/about">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="/css/style.css">
 <script src="/js/libs/modernizr-3.3.1.min.js"></script>
