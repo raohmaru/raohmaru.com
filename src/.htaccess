@@ -174,22 +174,22 @@ AddType text/x-vcard                        vcf
   # HTML, TXT, CSS, JavaScript, JSON, XML, HTC:
   <IfModule filter_module>
     FilterDeclare   COMPRESS
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $text/html
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $text/css
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $text/plain
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $text/xml
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $text/x-component
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $application/javascript
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $application/json
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $application/xml
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $application/xhtml+xml
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $application/rss+xml
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $application/atom+xml
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $application/vnd.ms-fontobject
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $image/svg+xml
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $image/x-icon
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $application/x-font-ttf
-    FilterProvider  COMPRESS  DEFLATE resp=Content-Type $font/opentype
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'text/html'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'text/css'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'text/plain'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'text/xml'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'text/x-component'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'application/javascript'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'application/json'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'application/xml'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'application/xhtml+xml'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'application/rss+xml'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'application/atom+xml'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'application/vnd.ms-fontobject'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'image/svg+xml'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'image/x-icon'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'application/x-font-ttf'"
+    FilterProvider  COMPRESS  DEFLATE "%{CONTENT_TYPE} = 'font/opentype'"
     FilterChain     COMPRESS
     FilterProtocol  COMPRESS  DEFLATE change=yes;byteranges=no
   </IfModule>
@@ -477,66 +477,6 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 </FilesMatch>
 
 
-# If your server is not already configured as such, the following directive
-# should be uncommented in order to set PHP's register_globals option to OFF.
-# This closes a major security hole that is abused by most XSS (cross-site
-# scripting) attacks. For more information: http://php.net/register_globals
-#
-# IF REGISTER_GLOBALS DIRECTIVE CAUSES 500 INTERNAL SERVER ERRORS :
-#
-# Your server does not allow PHP directives to be set via .htaccess. In that
-# case you must make this change in your php.ini file instead. If you are
-# using a commercial web host, contact the administrators for assistance in
-# doing this. Not all servers allow local php.ini files, and they should
-# include all PHP configurations (not just this one), or you will effectively
-# reset everything to PHP defaults. Consult www.php.net for more detailed
-# information about setting PHP directives.
-
-# php_flag register_globals Off
-
-# Rename session cookie to something else, than PHPSESSID
-# php_value session.name sid
-
-# Do not show you are using PHP
-# Note: Move this line to php.ini since it won't work in .htaccess
-# php_flag expose_php Off
-
-# Level of log detail - log all errors
-# php_value error_reporting 6143
-
-# Write errors to log file
-# php_flag log_errors On
-
-# Do not display errors in browser (production - Off, development - On)
-php_flag display_errors off
-
-# Do not display startup errors (production - Off, development - On)
-php_flag display_startup_errors off
-
-# Format errors in plain text
-# Note: Leave this setting 'On' for xdebug's var_dump() output
-# php_flag html_errors Off
-
-# Show multiple occurrence of error
-# php_flag ignore_repeated_errors Off
-
-# Show same errors from different sources
-# php_flag ignore_repeated_source Off
-
-# Size limit for error messages
-# php_value log_errors_max_len 1024
-
-# Don't precede error with string (doesn't accept empty string, use whitespace if you need)
-# php_value error_prepend_string " "
-
-# Don't prepend to error (doesn't accept empty string, use whitespace if you need)
-# php_value error_append_string " "
-
-# Increase cookie security
-<IfModule php5_module>
-  php_value session.cookie_httponly true
-</IfModule>
-
 
 # ----------------------------------------------------------------------
 # Rewrites
@@ -549,7 +489,10 @@ php_flag display_startup_errors off
   RewriteRule ^/?portfolio/$ /portfolio [R=301,NC,L]
   RewriteRule ^/?contact/?$ /contact.php [NC,L,QSA]
   # Wiki
-  RewriteRule ^/?rol/wiki/(.*)$ /rol/w/index.php?title=$1 [PT,L,QSA]
-  RewriteRule ^/?rol/wiki/*$ /rol/w/index.php [L,QSA]
-  RewriteRule ^/rol/w/*$ /rol/w/index.php [L,QSA]
+  # RewriteRule ^/?rol/wiki/(.*)$ /rol/w/index.php?title=$1 [PT,L,QSA]
+  # RewriteRule ^/?rol/wiki/*$ /rol/w/index.php [L,QSA]
+  # RewriteRule ^/rol/w/*$ /rol/w/index.php [L,QSA]
+  RewriteRule ^/?rol/wiki/(.*)$ /rol/mediawiki-1.28.2/index.php?title=$1 [PT,L,QSA]
+  RewriteRule ^/?rol/wiki/*$ /rol/mediawiki-1.28.2/index.php [L,QSA]
+  RewriteRule ^/rol/w/*$ /rol/mediawiki-1.28.2/index.php [L,QSA]
 </IfModule>
