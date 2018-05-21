@@ -8,6 +8,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="/css/style.css">
 <script src="/js/libs/modernizr-3.3.1.min.js"></script>
+<script src="/js/foo.js"></script>
 </head>
 
 <body class="section about">

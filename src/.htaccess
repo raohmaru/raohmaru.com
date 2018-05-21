@@ -477,6 +477,12 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 </FilesMatch>
 
 
+# Allow page to be rendered in a frame only within a page in the same origin
+<IfModule mod_headers.c>
+  Header always set X-Frame-Options SAMEORIGIN
+</IfModule>
+
+
 
 # ----------------------------------------------------------------------
 # Rewrites
