@@ -489,6 +489,10 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 # ----------------------------------------------------------------------
 
 <IfModule mod_rewrite.c>
+  # Redirects to secure domain
+  RewriteCond %{HTTPS} !=on [NC]
+  RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+  
   RewriteRule ^/?about/?$ /about.php [NC,L]
   RewriteRule ^/?portfolio$ /portfolio.php [NC,L]
   RewriteRule ^/?portfolio/([^/]+)/?$ /portfolio-work.php?w=$1 [NC,L]
