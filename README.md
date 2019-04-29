@@ -1,4 +1,4 @@
-> **This is the previous version of the website. Please visit https://github.com/raohmaru/raohmarucom_next/ for the latest version.**
+> **This is the previous version of the website. Please visit https://github.com/raohmaru/raohmarucom-next/ for the latest version.**
 
 # Old raohmaru.com website files
 Crafted with love using [Notepad++](https://notepad-plus-plus.org/). Build on top of the [HTML5 Boilerplate](https://html5boilerplate.com/).
